@@ -97,5 +97,37 @@
     "url": "https://download.videolan.org/pub/videolan/libbluray/1.4.0/libbluray-1.4.0.tar.xz",
     "member": "libbluray-1.4.0/COPYING",
     "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+  },
+  {
+    "file": "gsm-COPYRIGHT.txt",
+    "version": "1.0.13",
+    "url": "https://download.videolan.org/pub/contrib/gsm/libgsm_1.0.13.tar.gz",
+    "member": "gsm-1.0-pl13/COPYRIGHT",
+    "archive_sha512": "0d0cf9e1e81e64cd84f588c1e4f0cb74b849d45e41fdebf860f63588084c73c7c5198bfe73a6c976bda5735ee516661d3db00afbb5cc5886a7ee3a7b31d673aa",
+    "sha256": "81c68a3374937ed9b5e4929c709e81a2c4b35b5d1f450ecf8c473e2daea46ff6"
+  },
+  {
+    "file": "openjpeg-LICENSE.txt",
+    "version": "2.5.0",
+    "url": "https://codeload.github.com/uclouvain/openjpeg/tar.gz/refs/tags/v2.5.0",
+    "member": "openjpeg-2.5.0/LICENSE",
+    "archive_sha512": "08975a2dd79f1e29fd1824249a5fbe66026640ed787b3a3aa8807c2c69f994240ff33e2132f8bf15bbc2202bef7001f98e42d487231d4eebc8e503538658049a",
+    "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+  },
+  {
+    "file": "lame-LICENSE.txt",
+    "version": "3.100",
+    "url": "https://download.videolan.org/pub/contrib/lame/lame-3.100.tar.gz",
+    "member": "lame-3.100/LICENSE",
+    "archive_sha512": "0844b9eadb4aacf8000444621451277de365041cc1d97b7f7a589da0b7a23899310afd4e4d81114b9912aa97832621d20588034715573d417b2923948c08634b",
+    "sha256": "7a40cbd8818c57e5285e83c772a459a996d1662c824a879836b97b473c07cae4"
+  },
+  {
+    "file": "lame-COPYING.txt",
+    "version": "3.100",
+    "url": "https://download.videolan.org/pub/contrib/lame/lame-3.100.tar.gz",
+    "member": "lame-3.100/COPYING",
+    "archive_sha512": "0844b9eadb4aacf8000444621451277de365041cc1d97b7f7a589da0b7a23899310afd4e4d81114b9912aa97832621d20588034715573d417b2923948c08634b",
+    "sha256": "bfe4a52dc4645385f356a8e83cc54216a293e3b6f1cb4f79f5fc0277abf937fd"
   }
 ]

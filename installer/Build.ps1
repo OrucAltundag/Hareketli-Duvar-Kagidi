@@ -9,8 +9,12 @@ foreach ($file in @('LibVLCSharp-LICENSE.txt', 'VLC-COPYING-LGPL.txt', 'VLC-COPY
     'VLC-AUTHORS.txt', 'VLC-THANKS.txt', 'NET-Runtime-LICENSE.TXT', 'NET-Runtime-THIRD-PARTY-NOTICES.TXT',
     'NET-Desktop-LICENSE.txt', 'NET-WPF-LICENSE.TXT', 'NET-WPF-THIRD-PARTY-NOTICES.TXT',
     'NET-WinForms-LICENSE.TXT', 'NET-WinForms-THIRD-PARTY-NOTICES.TXT', 'Inno-Setup-LICENSE.txt',
-    'SOURCES.json', 'VLC-BINARY-INVENTORY.json')) {
+    'SOURCES.json', 'VLC-BINARY-INVENTORY.json', 'VLC-SOURCE-MAP.json')) {
     if (-not (Test-Path (Join-Path $licenses $file))) { throw "Eksik üçüncü taraf bildirimi: $file" }
+}
+foreach ($entry in (Get-Content (Join-Path $licenses 'SOURCES.json') -Raw -Encoding UTF8 | ConvertFrom-Json)) {
+    $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $licenses $entry.file)).Hash
+    if ($hash -ne $entry.sha256) { throw "Bildirim özeti uyuşmuyor: $($entry.file)" }
 }
 Copy-Item -LiteralPath $notices -Destination $output -Force
 Copy-Item -LiteralPath $licenses -Destination $output -Recurse -Force

@@ -21,6 +21,9 @@ UninstallDisplayIcon={app}\{#AppExe}
 CloseApplications=no
 RestartApplications=no
 
+[Languages]
+Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
+
 [Tasks]
 Name: desktopicon; Description: "Masaüstü kısayolu oluştur"; Flags: unchecked
 

@@ -63,3 +63,11 @@ Her iki libvlccore.dll içindeki sürüm 3.0.23-2-0-g79128878dd olarak okunmuşt
 | Diğer lisanslar | İzinli lisanslarda ilgili bileşenin koşullarına göre telif, izin ve garanti reddi metinlerini taşıyın. Veri dosyalarının kendi bildirimlerini koruyun. Bileşen kanıtı olmadan toplu bir lisans atanmamıştır. |
 
 **Açık liste.** VLC-SOURCE-MAP.json içindeki tüm modüller için tam statik bağımlılık kapanışı ve kullanılan yamaların derleme kaydı açık. Özellikle FFmpeg'e bağlanan GSM/OpenJPEG/LAME, çekirdekteki kriptografi kodu, iki libbluray JAR'ı ve libvlc.lib/libvlccore.lib üretim girdileri henüz eksiksiz eşleştirilmemiştir. Arşiv doğrulaması, derleyici girdilerinin tamamının veya yeniden bağlanabilirliğin doğrulanması değildir. Yayından önce iki mimarinin gerçek CI işlerinden contrib manifestleri, yama listeleri ve derleme kayıtları alınmalı, karşılık gelen kaynak paketi hazırlanmalı ve seçilen lisansların birlikte dağıtım koşulları incelenmelidir.
+
+## v1.0.1 kaynak sağlama planı
+
+GSM 1.0.13, OpenJPEG 2.5.0 ve LAME 3.100 kaynak arşivlerinden alınan telif ve lisans metinleri `licenses/` altındadır. `SOURCES.json` bu arşivlerin adreslerini, SHA-512 özetlerini ve metinlerin arşiv içindeki yollarını içerir.
+
+1. VideoLAN'dan [Win32 işi 2403066](https://code.videolan.org/videolan/vlc/-/jobs/2403066) ve [Win64 işi 2403067](https://code.videolan.org/videolan/vlc/-/jobs/2403067) için contrib manifestlerini, uygulanan yamaları, statik bağlama girdilerini ve BD-J derleme hedeflerini isteyin. İki mimariyi ayrı ayrı VLC-BINARY-INVENTORY.json ile eşleştirin.
+2. GPL/LGPL kapsamındaki dağıtılan ikililere karşılık gelen kaynakları, yamaları ve derleme/kurulum betiklerini sürümlü bir kaynak arşivinde toplayın. Statik bağlı kütüphaneler için seçilen yeniden bağlama yönteminin gerektirdiği girdileri ekleyin. Uyumlu değiştirilmiş DLL ve yeniden bağlanmış eklentiyle oynatmayı sınayın. GPL etkin FFmpeg ile uygulamanın birlikte dağıtım koşullarını netleştirin.
+3. Kaynak arşivini temiz bir dizinde açıp belgelendirilmiş komutlarla derleyin. Her bileşenin sürümünü, bildirimini ve kaynak yolunu kontrol edin. Kontrol tamamlandığında kaynak arşivini kendi SHA-256 özetiyle Setup.exe'nin yanında aynı Release'e ekleyin. Alıcı yalnızca Setup.exe'yi indirerek kurabilmeli ve aynı sayfadan karşılık gelen kaynaklara erişebilmelidir.
