@@ -46,3 +46,20 @@ Bu eksikler giderilmeden yalnızca lisans metinleri eklendiği için Release da�
 - [VideoLAN dağıtım açıklaması](https://docs.videolan.me/vlc-user/en/support/faq/legalconcerns.html)
 - [Native NuGet paketi](https://www.nuget.org/packages/VideoLAN.LibVLC.Windows/3.0.23)
 - [Inno Setup lisansı](https://jrsoftware.org/files/is/license.txt)
+## 22 Kasım 2026 tarihli native dağıtım incelemesi
+
+850 dosyanın tümü NuGet arşivindeki build/x64 ve build/x86 girdileriyle bayt düzeyinde eşleşti. Bunların 650'si DLL'dir. Her mimarideki 325 DLL'nin tamamı, VideoLAN'ın SHA-256 değerleri kontrol edilen [Windows x64](https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/) ve [Windows x86](https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/) ZIP dağıtımlarındaki karşılıklarıyla aynıdır.
+
+Her iki libvlccore.dll içindeki sürüm 3.0.23-2-0-g79128878dd olarak okunmuştur. [Tam VLC revizyonu, kaynaklar ve derleme betikleri](https://code.videolan.org/videolan/vlc/-/tree/79128878ddb2c280bbb6c89c76a46b31a80ade1c) erişilebilirdir. Paket içindeki licenses/VLC-SOURCE-MAP.json, her göreli dosya için doğrudan kaynak adaylarını ve okunabilen kaynak başlıklarındaki telif/lisans satırlarını listeler. Kaynak başlıklarındaki bilgiler yalnızca ilgili kaynak dosyasına aittir. Koşullu derleme seçenekleri, üretilen dosyalar ve statik bağımlılıklar bu listeyi aşabilir.
+
+**FFmpeg için GPL etkin.** İki libavcodec_plugin.dll içinde de libavcodec 58.134.100 ve FFmpeg configure satırında --enable-gpl --enable-postproc --enable-static --disable-shared okunmuştur. FFmpeg bu yapılandırmada GPL kapsamındadır. Yapılandırma ayrıca GSM, OpenJPEG ve LAME desteği bildirir. VLC revizyonunun contrib/src/ffmpeg/rules.mak tarifinde 4.4.5 seçilidir. [FFmpeg kaynak arşivi](https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz) indirildi ve tarifin SHA512SUMS değeriyle eşleşti. Kaynak paketten alınan lisans ve katkıcı belgelerinin kökeni SOURCES.json içindedir. [FFmpeg lisans açıklaması](https://ffmpeg.org/legal.html)
+
+**Diğer doğrulamalar.** libbluray 1.4.0 kaynak arşivi de VLC tarifinin SHA-512 değeriyle eşleşti. İki BD-J JAR adı aynı sürümü taşıyor. JAR sınıflarının yeniden derleme eşleşmesi açık. HRTF dosyası VLC revizyonundaki share/hrtfs kopyasıyla özdeş ve veri içinde 3D Sound Labs 2017 telif bildirimi ile LGPL-2.1-or-later koşulu bulunuyor.
+
+| Koşul | Bu dağıtım için gereken işlem |
+| --- | --- |
+| GPLv2 §1–3 | Telif ve lisans metinlerini koruyun. GPL kapsamındaki ikililerle eksiksiz karşılık gelen kaynakları, değişiklikleri ve derleme/kurulum betiklerini §3 kapsamındaki geçerli bir yöntemle sunun. İndirme dağıtımında aynı yerden eşdeğer kaynak erişimi sağlanabilir. Uygulama ile eklentilerin birleşik eser sayılıp sayılmadığı ayrıca değerlendirilmelidir. |
+| LGPLv2.1 §4–6 | Kütüphane dağıtımında kaynak ve bildirimleri sağlayın. Kütüphaneyi kullanan çalışmanın dağıtımında §6 seçeneklerinden uygulanabilir olanı karşılayın. Uyumlu değiştirilmiş DLL ile çalışabilme veya yeniden bağlamaya yeterli nesne/kaynak sağlama yolunu doğrulayın. Kullanıcının değişiklikleri ve hata ayıklamak için tersine mühendisliği engellenmemelidir. |
+| Diğer lisanslar | İzinli lisanslarda ilgili bileşenin koşullarına göre telif, izin ve garanti reddi metinlerini taşıyın. Veri dosyalarının kendi bildirimlerini koruyun. Bileşen kanıtı olmadan toplu bir lisans atanmamıştır. |
+
+**Açık liste.** VLC-SOURCE-MAP.json içindeki tüm modüller için tam statik bağımlılık kapanışı ve kullanılan yamaların derleme kaydı açık. Özellikle FFmpeg'e bağlanan GSM/OpenJPEG/LAME, çekirdekteki kriptografi kodu, iki libbluray JAR'ı ve libvlc.lib/libvlccore.lib üretim girdileri henüz eksiksiz eşleştirilmemiştir. Arşiv doğrulaması, derleyici girdilerinin tamamının veya yeniden bağlanabilirliğin doğrulanması değildir. Yayından önce iki mimarinin gerçek CI işlerinden contrib manifestleri, yama listeleri ve derleme kayıtları alınmalı, karşılık gelen kaynak paketi hazırlanmalı ve seçilen lisansların birlikte dağıtım koşulları incelenmelidir.

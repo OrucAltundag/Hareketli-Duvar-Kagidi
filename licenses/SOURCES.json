@@ -67,5 +67,35 @@
     "component": "Inno Setup 6.7.4",
     "url": "https://jrsoftware.org/files/is/license.txt",
     "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c"
+  },
+  {
+    "file": "ffmpeg-LICENSE.md.txt",
+    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
+    "member": "ffmpeg-4.4.5/LICENSE.md",
+    "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+  },
+  {
+    "file": "ffmpeg-COPYING.GPLv2.txt",
+    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
+    "member": "ffmpeg-4.4.5/COPYING.GPLv2",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "file": "ffmpeg-COPYING.LGPLv2.1.txt",
+    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
+    "member": "ffmpeg-4.4.5/COPYING.LGPLv2.1",
+    "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe"
+  },
+  {
+    "file": "ffmpeg-CREDITS.txt",
+    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
+    "member": "ffmpeg-4.4.5/CREDITS",
+    "sha256": "28ecc96d495fa5ad48c76739a8f8d2c8980548d7a171585a6eb3f27a9ac8e4a2"
+  },
+  {
+    "file": "bluray-COPYING.txt",
+    "url": "https://download.videolan.org/pub/videolan/libbluray/1.4.0/libbluray-1.4.0.tar.xz",
+    "member": "libbluray-1.4.0/COPYING",
+    "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
   }
 ]
