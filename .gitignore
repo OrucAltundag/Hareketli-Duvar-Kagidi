@@ -1,0 +1,45 @@
+bin/
+obj/
+.vs/
+*.user
+
+dist/
+
+# IDE ve kullanıcıya özel dosyalar
+.idea/
+.vscode/
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Geçici dosyalar, test çıktıları ve günlükler
+TestResults/
+coverage/
+*.log
+*.tmp
+*.bak
+*.dmp
+stage*-verify/
+*-verify/
+
+# Yerel ayarlar, videolar ve kimlik bilgileri
+settings.json
+settings.json.*
+Videos/
+*.mp4
+*.webm
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.secrets.json
+
+# Dağıtım ve yerel ikili çıktılar
+*.exe
+*.dll
+*.pdb
+*.nupkg

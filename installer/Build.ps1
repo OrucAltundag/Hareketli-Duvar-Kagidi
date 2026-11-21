@@ -1,0 +1,29 @@
+﻿$ErrorActionPreference = 'Stop'
+$project = Join-Path $PSScriptRoot '../HareketliDuvarKagidi.csproj'
+$output = Join-Path $PSScriptRoot '../dist/1.0.1/win-x64'
+dotnet publish $project -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -p:PublishTrimmed=false -o $output
+if ($LASTEXITCODE -ne 0) { throw 'Self-contained yayın başarısız.' }
+foreach ($file in @('HareketliDuvarKagidi.exe', 'coreclr.dll', 'hostfxr.dll', 'LibVLCSharp.dll', 'libvlc/win-x64/libvlc.dll', 'libvlc/win-x64/libvlccore.dll')) {
+    if (-not (Test-Path (Join-Path $output $file))) { throw "Eksik yayın dosyası: $file" }
+}
+if (-not (Get-ChildItem (Join-Path $output "libvlc/win-x64/plugins") -Filter *.dll -File -Recurse)) {
+    throw "Native VLC eklentileri eksik."
+}
+$command = Get-Command ISCC.exe -ErrorAction SilentlyContinue
+$compilerPath = if ($command) { $command.Source } else { $null }
+if (-not $compilerPath) {
+    foreach ($base in @(${env:ProgramFiles(x86)}, $env:ProgramFiles, "$env:LOCALAPPDATA\Programs")) {
+        foreach ($folder in Get-ChildItem -LiteralPath $base -Directory -Filter 'Inno Setup*' -ErrorAction SilentlyContinue) {
+            $candidate = Join-Path $folder.FullName 'ISCC.exe'
+            if (Test-Path $candidate) { $compilerPath = $candidate; break }
+        }
+        if ($compilerPath) { break }
+    }
+}
+if ($compilerPath) {
+    & $compilerPath (Join-Path $PSScriptRoot 'Setup.iss')
+    if ($LASTEXITCODE -ne 0) { throw 'Inno Setup derlemesi başarısız.' }
+} else {
+    Write-Warning 'Inno Setup bulunamadı. Yayın paketi hazır; Setup.exe üretilemedi.'
+}
+
