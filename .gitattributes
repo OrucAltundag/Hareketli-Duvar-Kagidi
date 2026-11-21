@@ -1,0 +1,2 @@
+# Üst kaynaklardan alınan lisans belgelerinin SHA-256 değerlerini koru.
+licenses/** -text

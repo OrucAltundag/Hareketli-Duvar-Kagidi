@@ -1,0 +1,71 @@
+[
+  {
+    "file": "LibVLCSharp-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/videolan/libvlcsharp/3.9.4/LICENSE",
+    "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+  },
+  {
+    "file": "VLC-COPYING-LGPL.txt",
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.23/COPYING.LIB",
+    "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+  },
+  {
+    "file": "VLC-COPYING-GPL.txt",
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.23/COPYING",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "file": "VLC-AUTHORS.txt",
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.23/AUTHORS",
+    "sha256": "9269103dfaa31222ad24a8f88f2505c169ad1861b3feb87cd2d73cf64120dfb5"
+  },
+  {
+    "file": "VLC-THANKS.txt",
+    "url": "https://raw.githubusercontent.com/videolan/vlc/3.0.23/THANKS",
+    "sha256": "335a6f84e2ab3f84683707fa1ff4b69f1785afeacb780e13e364090eafb0b9d5"
+  },
+  {
+    "file": "NET-Runtime-LICENSE.TXT",
+    "package": "microsoft.netcore.app.runtime.win-x64",
+    "version": "10.0.12",
+    "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+  },
+  {
+    "file": "NET-Runtime-THIRD-PARTY-NOTICES.TXT",
+    "package": "microsoft.netcore.app.runtime.win-x64",
+    "version": "10.0.12",
+    "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+  },
+  {
+    "file": "NET-WPF-LICENSE.TXT",
+    "url": "https://raw.githubusercontent.com/dotnet/wpf/v10.0.12/LICENSE.TXT",
+    "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+  },
+  {
+    "file": "NET-WPF-THIRD-PARTY-NOTICES.TXT",
+    "url": "https://raw.githubusercontent.com/dotnet/wpf/v10.0.12/THIRD-PARTY-NOTICES.TXT",
+    "sha256": "d23dba2fee20c6b59d8f7088ee9ed372459c952a319b7ca90f3eec370cc76eb9"
+  },
+  {
+    "file": "NET-WinForms-LICENSE.TXT",
+    "url": "https://raw.githubusercontent.com/dotnet/winforms/v10.0.12/LICENSE.TXT",
+    "sha256": "ae48df11a335dc1a615f4f938b69cba73bcf4485c4f97af49b38efb0f216353b"
+  },
+  {
+    "file": "NET-WinForms-THIRD-PARTY-NOTICES.TXT",
+    "url": "https://raw.githubusercontent.com/dotnet/winforms/v10.0.12/THIRD-PARTY-NOTICES.TXT",
+    "sha256": "5a412b38efae0b162dc0893b319023f4cd14a8985a0f9f9ae01ac052b37a36eb"
+  },
+  {
+    "file": "NET-Desktop-LICENSE.txt",
+    "package": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+    "version": "10.0.12",
+    "sha256": "a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab"
+  },
+  {
+    "file": "Inno-Setup-LICENSE.txt",
+    "component": "Inno Setup 6.7.4",
+    "url": "https://jrsoftware.org/files/is/license.txt",
+    "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c"
+  }
+]
