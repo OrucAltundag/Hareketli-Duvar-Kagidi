@@ -366,5 +366,151 @@
     "file": "x264-e067ab0b.tar.gz",
     "url": "https://codeload.github.com/mirror/x264/tar.gz/e067ab0b530395f90b578f6d05ab0a225e2efdf9",
     "sha256": "bd3f6f37a454924723671319c669fda254d33a146d07250d4b033df3d4bdfd27"
+  },
+  {
+    "component": "SDL_image",
+    "file": "SDL_image-1.2.12.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/SDL_image/SDL_image-1.2.12.tar.gz",
+    "sha256": "0b90722984561004de84847744d566809dbb9daf732a9e503b91a1b5a84e5699",
+    "recipe_sha512": "0e71b280abc2a7f15755e4480a3c1b52d41f9f8b0c9216a6f5bd9fc0e939456fb5d6c10419e1d1904785783f9a1891ead278c03e88b0466fecc6871c3ca40136"
+  },
+  {
+    "component": "asdcplib",
+    "file": "asdcplib-2.7.19.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/asdcplib/asdcplib-2.7.19.tar.gz",
+    "sha256": "2948613fc31926b5e61dbe6a08d937d02e6f806650fde9c3e732cdc1f188f82e",
+    "recipe_sha512": "2ae375b2cbb76bbb0ca75a6b2a37b5b51350165ad07b92957f269611b37d92475da44c1046f06f316a1dc1e00f3141b5c9763abd64c41c341131b9c7c4d04bab"
+  },
+  {
+    "component": "caca",
+    "file": "libcaca-0.99.beta20.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/caca/libcaca-0.99.beta20.tar.gz",
+    "sha256": "8ad74babc63bf665b0b2378d95b4da65b7493c11bd9f3ac600517085b0c4acf2",
+    "recipe_sha512": "ab03e6c7d17fd152b2d5e9161799531f5e87322e174cb9d25874700f5bc1acfaf8bc2736e733998dad906f793c5a0304740dd39eec04a5e4c3d181bb109b4f23"
+  },
+  {
+    "component": "cddb",
+    "file": "libcddb-1.3.2.tar.bz2",
+    "url": "https://download.videolan.org/pub/contrib/cddb/libcddb-1.3.2.tar.bz2",
+    "sha256": "35ce0ee1741ea38def304ddfe84a958901413aa829698357f0bee5bb8f0a223b",
+    "recipe_sha512": "0e07e7d37f2013164d75b530a5528f54847271fd20f3b7bedb192a05d1f61dcf006d10dc2927efe155a01eddcc57b940bc31d8ac88d5dfc4f1a09771caa84e0a"
+  },
+  {
+    "component": "fontconfig",
+    "file": "fontconfig-2.12.3.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/fontconfig/fontconfig-2.12.3.tar.gz",
+    "sha256": "ffc3cbf6dd9fcd516ee42f48306a715e66698b238933d6fa7cef02ea8b3b818e",
+    "recipe_sha512": "b17725c028be1c5e6f76c136b0ed7db1be7694cbbf217310083512708e05cdc1a824427f89082e6ef259c10297900f26cbe899f7c5762e7662855739f3eff5ea"
+  },
+  {
+    "component": "gettext",
+    "file": "gettext-0.22.5.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/gettext/gettext-0.22.5.tar.gz",
+    "sha256": "ec1705b1e969b83a9f073144ec806151db88127f5e40fe5a94cb6c8fa48996a0",
+    "recipe_sha512": "d8b22d7fba10052a2045f477f0a5b684d932513bdb3b295c22fbd9dfc2a9d8fccd9aefd90692136c62897149aa2f7d1145ce6618aa1f0be787cb88eba5bc09be"
+  },
+  {
+    "component": "glew",
+    "file": "glew-2.1.0.tgz",
+    "url": "https://download.videolan.org/pub/contrib/glew/glew-2.1.0.tgz",
+    "sha256": "04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95",
+    "recipe_sha512": "9a9b4d81482ccaac4b476c34ed537585ae754a82ebb51c3efa16d953c25cc3931be46ed2e49e79c730cd8afc6a1b78c97d52cd714044a339c3bc29734cd4d2ab"
+  },
+  {
+    "component": "gme",
+    "file": "game-music-emu-0.6.3.tar.gz",
+    "url": "https://codeload.github.com/libgme/game-music-emu/tar.gz/refs/tags/0.6.3",
+    "sha256": "4c5a7614acaea44e5cb1423817d2889deb82674ddbc4e3e1291614304b86fca0",
+    "recipe_sha512": "fb4e8026f7b1565ef7884fabfcdedd97546bbe30d3047f06f0487dc752963ea37e5e4320cb0311eabe8fb7ed122f7958c388c7873ccff812fa3b612c9523491e"
+  },
+  {
+    "component": "goom",
+    "file": "goom-2k4-0-src.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/goom/goom-2k4-0-src.tar.gz",
+    "sha256": "d993c904c05faba87fd7f159291fa1cb7aadcff2edd28454d8e967880a8a0c85",
+    "recipe_sha512": "790e3ab8dee122320ad8b3ae15f6a1cd2780222d5ae97979f614f16ba73b4b853960e7945ef9053ad9eddf9e29e69d0c52f0875d07c5c6c7cee41d764bf4ea5f"
+  },
+  {
+    "component": "iconv",
+    "file": "libiconv-1.17.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/iconv/libiconv-1.17.tar.gz",
+    "sha256": "8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313",
+    "recipe_sha512": "18a09de2d026da4f2d8b858517b0f26d853b21179cf4fa9a41070b2d140030ad9525637dc4f34fc7f27abca8acdc84c6751dfb1d426e78bf92af4040603ced86"
+  },
+  {
+    "component": "microdns",
+    "file": "microdns-0.1.2.tar.xz",
+    "url": "https://download.videolan.org/pub/contrib/microdns/microdns-0.1.2.tar.xz",
+    "sha256": "666c4b9d86b5b3c37357bb78453c7e8b72cd65ade22d0a7963bfbefe51509b5c",
+    "recipe_sha512": "a6b15c65c74560fdba8973c63ffae9cdde4445f54196bb2d7d6348f6c15f8f162ef0a4e91b969ea3f2a60c701c3cc72799fcfba2fbf08c37f71ba8d5e3409702"
+  },
+  {
+    "component": "modplug",
+    "file": "libmodplug-0.8.9.0.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/modplug/libmodplug-0.8.9.0.tar.gz",
+    "sha256": "457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de",
+    "recipe_sha512": "880e10154fd367ee24ace53ca7e32a5c1fee7dfff1f934e6499944c12779427da63e2f55f8d6ce25db0a42a5b4424053bf64305b31dbfc4ef6a8909924d655fd"
+  },
+  {
+    "component": "orc",
+    "file": "orc-0.4.33.tar.bz2",
+    "url": "https://gitlab.freedesktop.org/gstreamer/orc/-/archive/0.4.33/orc-0.4.33.tar.bz2",
+    "sha256": "0828e69313e224c34de5bd75b6317201a6547a695a006c47c1c46f8deb812f6d",
+    "recipe_sha512": "e8981908f37a77a2638c3461622a8e5ed8b583a3067c525de0737eb951a57d8a6f22f8930c31e0c16dae5bc94f98a79c1aba976b35e58f5d59b33d5a1d721e68"
+  },
+  {
+    "component": "projectM",
+    "file": "projectM-2.0.1-Source.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/projectM/projectM-2.0.1-Source.tar.gz",
+    "sha256": "c305182dfc8b7f87b82a146af6cf50a982e7c9c647877a0559dfef4b11dacb93",
+    "recipe_sha512": "0edbf487d45983b0004ee67009931da985f3b9909cb10eb32a2c9116eed46f9cf9c7a1c696138d16a30aedd81d43ac5533fb7666c9fba9326c9c89f4e87f88db"
+  },
+  {
+    "component": "protobuf",
+    "file": "protobuf-3.1.0-cpp.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/protobuf/protobuf-3.1.0-cpp.tar.gz",
+    "sha256": "51ceea9957c875bdedeb1f64396b5b0f3864fe830eed6a2d9c066448373ea2d6",
+    "recipe_sha512": "9f85a98e55cbc9f245a3079d5a597f778454bc945f0942cb10fbdfbde5fe12b17d6dda93d6a8d5281459ad30a3840be7e0712feb33a824226884e7e4da54a061"
+  },
+  {
+    "component": "sdl",
+    "file": "SDL-1.2.15.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/sdl/SDL-1.2.15.tar.gz",
+    "sha256": "d6d316a793e5e348155f0dd93b979798933fb98aa1edebcc108829d6474aad00",
+    "recipe_sha512": "ac392d916e6953b0925a7cbb0f232affea33339ef69b47a0a7898492afb9784b93138986df53d6da6d3e2ad79af1e9482df565ecca30f89428be0ae6851b1adc"
+  },
+  {
+    "component": "shout",
+    "file": "libshout-2.4.1.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/shout/libshout-2.4.1.tar.gz",
+    "sha256": "f3acb8dec26f2dbf6df778888e0e429a4ce9378a9d461b02a7ccbf2991bbf24d",
+    "recipe_sha512": "4d4b958947e020de3330d49d39d59220fc89315f25f653a7456b9aa24ca9566fca30bb3d65e6348e79958656096b6b864ea8885157d24e55c8d84d6604670219"
+  },
+  {
+    "component": "ssh2",
+    "file": "libssh2-1.10.0.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/ssh2/libssh2-1.10.0.tar.gz",
+    "sha256": "2d64e90f3ded394b91d3a2e774ca203a4179f69aebee03003e5a6fa621e41d51",
+    "recipe_sha512": "e064ee1089eb8e6cd5fa2617f4fd8ff56c2721c5476775a98bdb68c6c4ee4d05c706c3bb0eb479a27a8ec0b17a8a5ef43e1d028ad3f134519aa582d3981a3a30"
+  },
+  {
+    "component": "tiff",
+    "file": "tiff-4.0.9.tar.gz",
+    "url": "https://download.videolan.org/pub/contrib/tiff/tiff-4.0.9.tar.gz",
+    "sha256": "6e7bdeec2c310734e734d19aae3a71ebe37a4d842e0e23dbb1b8921c0026cfcd",
+    "recipe_sha512": "04f3d5eefccf9c1a0393659fe27f3dddd31108c401ba0dc587bca152a1c1f6bc844ba41622ff5572da8cc278593eff8c402b44e7af0a0090e91d326c2d79f6cd"
+  },
+  {
+    "component": "upnp",
+    "file": "pupnp-release-1.14.13.tar.gz",
+    "url": "https://codeload.github.com/pupnp/pupnp/tar.gz/refs/tags/release-1.14.13",
+    "sha256": "8c099da99b3506bef683d46415bc3158260ca5528b4cec211d880eb5dea61176",
+    "recipe_sha512": "ae6ae72a5e784a0f9508af94c4070627e791660fa37966e9825643fd0f88b171826bda9a2ec872d4961bf3454e5a9cd716127f0bdf6e63c789c4e22aab0b7e71"
+  },
+  {
+    "component": "fluidlite",
+    "file": "FluidLite-238997654efb20e736512847f3f5f6d618de9423.tar.gz",
+    "url": "https://codeload.github.com/divideconcept/FluidLite/tar.gz/238997654efb20e736512847f3f5f6d618de9423",
+    "sha256": "5ff8bb35eacaadb9a5da3b1407c9116a3c0623bfe6c2c8dee80917cee528fdcd"
   }
 ]

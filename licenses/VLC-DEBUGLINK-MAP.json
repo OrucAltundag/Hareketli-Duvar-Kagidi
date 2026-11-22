@@ -1,0 +1,2962 @@
+{
+  "win32": {
+    "libvlc.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "af440f2e"
+    },
+    "libvlccore.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "gettext",
+        "iconv",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "9c1dad7e"
+    },
+    "plugins/access/libaccess_concat_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fae3e2b0"
+    },
+    "plugins/access/libaccess_imem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8a0be18a"
+    },
+    "plugins/access/libaccess_mms_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6a7c32ff"
+    },
+    "plugins/access/libaccess_srt_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "pthreads",
+        "srt",
+        "zlib"
+      ],
+      "debuglink_crc32": "c1413ac6"
+    },
+    "plugins/access/libaccess_wasapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "733269d8"
+    },
+    "plugins/access/libattachment_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e65f815d"
+    },
+    "plugins/access/libcdda_plugin.dll": {
+      "contrib_path_components": [
+        "cddb",
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "be1dc175"
+    },
+    "plugins/access/libdcp_plugin.dll": {
+      "contrib_path_components": [
+        "asdcplib",
+        "gcrypt",
+        "gmp",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "f53589bf"
+    },
+    "plugins/access/libdtv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "188cdf44"
+    },
+    "plugins/access/libfilesystem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6fa1b649"
+    },
+    "plugins/access/libftp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c186777e"
+    },
+    "plugins/access/libhttp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c562a36a"
+    },
+    "plugins/access/libhttps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0b787ef8"
+    },
+    "plugins/access/libidummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1d133c36"
+    },
+    "plugins/access/libimem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2446e082"
+    },
+    "plugins/access/liblibbluray_plugin.dll": {
+      "contrib_path_components": [
+        "bluray",
+        "freetype",
+        "zlib"
+      ],
+      "debuglink_crc32": "98d28edc"
+    },
+    "plugins/access/liblive555_plugin.dll": {
+      "contrib_path_components": [
+        "live555"
+      ],
+      "debuglink_crc32": "92a07fff"
+    },
+    "plugins/access/libnfs_plugin.dll": {
+      "contrib_path_components": [
+        "nfs"
+      ],
+      "debuglink_crc32": "08977c39"
+    },
+    "plugins/access/librist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "38279cdc"
+    },
+    "plugins/access/librtp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "3e00293d"
+    },
+    "plugins/access/libsatip_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0b1149e2"
+    },
+    "plugins/access/libscreen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3a11c223"
+    },
+    "plugins/access/libsdp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7fa26057"
+    },
+    "plugins/access/libsftp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error",
+        "ssh2",
+        "zlib"
+      ],
+      "debuglink_crc32": "0b98e4bf"
+    },
+    "plugins/access/libshm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f756d37a"
+    },
+    "plugins/access/libsmb_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "57529211"
+    },
+    "plugins/access/libtcp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7160a1ac"
+    },
+    "plugins/access/libtimecode_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "58cca491"
+    },
+    "plugins/access/libudp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "662ecd5e"
+    },
+    "plugins/access/libvcd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ad2106f8"
+    },
+    "plugins/access/libvdr_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "025d6cd4"
+    },
+    "plugins/access_output/libaccess_output_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "23eb79a3"
+    },
+    "plugins/access_output/libaccess_output_file_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "80c92757"
+    },
+    "plugins/access_output/libaccess_output_http_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b991e556"
+    },
+    "plugins/access_output/libaccess_output_livehttp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "30efaf76"
+    },
+    "plugins/access_output/libaccess_output_rist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "53a79189"
+    },
+    "plugins/access_output/libaccess_output_shout_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libshout",
+        "libtheora",
+        "libvorbis",
+        "speex"
+      ],
+      "debuglink_crc32": "eaebb478"
+    },
+    "plugins/access_output/libaccess_output_srt_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "pthreads",
+        "srt",
+        "zlib"
+      ],
+      "debuglink_crc32": "b212bceb"
+    },
+    "plugins/access_output/libaccess_output_udp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f7ac85ad"
+    },
+    "plugins/audio_filter/libaudio_format_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b2075036"
+    },
+    "plugins/audio_filter/libaudiobargraph_a_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d74df5fa"
+    },
+    "plugins/audio_filter/libchorus_flanger_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "89447e38"
+    },
+    "plugins/audio_filter/libcompressor_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "08d73969"
+    },
+    "plugins/audio_filter/libdolby_surround_decoder_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f287463d"
+    },
+    "plugins/audio_filter/libequalizer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9a66ae54"
+    },
+    "plugins/audio_filter/libgain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "96027796"
+    },
+    "plugins/audio_filter/libheadphone_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a2df9ecb"
+    },
+    "plugins/audio_filter/libkaraoke_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "78a343cb"
+    },
+    "plugins/audio_filter/libnormvol_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "558a5822"
+    },
+    "plugins/audio_filter/libparam_eq_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "aea88767"
+    },
+    "plugins/audio_filter/libremap_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "16facc79"
+    },
+    "plugins/audio_filter/libscaletempo_pitch_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "982746d9"
+    },
+    "plugins/audio_filter/libscaletempo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c03d1236"
+    },
+    "plugins/audio_filter/libsimple_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f842efaf"
+    },
+    "plugins/audio_filter/libspatialaudio_plugin.dll": {
+      "contrib_path_components": [
+        "mysofa",
+        "spatialaudio",
+        "zlib"
+      ],
+      "debuglink_crc32": "6994cfce"
+    },
+    "plugins/audio_filter/libspatializer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8627fb8d"
+    },
+    "plugins/audio_filter/libspeex_resampler_plugin.dll": {
+      "contrib_path_components": [
+        "speexdsp"
+      ],
+      "debuglink_crc32": "a1c082c6"
+    },
+    "plugins/audio_filter/libstereo_widen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cc5ddd5e"
+    },
+    "plugins/audio_filter/libtospdif_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "13ab80c5"
+    },
+    "plugins/audio_filter/libtrivial_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "defb4330"
+    },
+    "plugins/audio_filter/libugly_resampler_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "186eaa1b"
+    },
+    "plugins/audio_mixer/libfloat_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8c54a54d"
+    },
+    "plugins/audio_mixer/libinteger_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "759a9623"
+    },
+    "plugins/audio_output/libadummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "87366a20"
+    },
+    "plugins/audio_output/libafile_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fe626227"
+    },
+    "plugins/audio_output/libamem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ce18dcbd"
+    },
+    "plugins/audio_output/libdirectsound_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cd8e95fb"
+    },
+    "plugins/audio_output/libmmdevice_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4d035207"
+    },
+    "plugins/audio_output/libwasapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ec74d177"
+    },
+    "plugins/audio_output/libwaveout_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fffdc3c4"
+    },
+    "plugins/codec/libadpcm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "54ebd2df"
+    },
+    "plugins/codec/libaes3_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6079939b"
+    },
+    "plugins/codec/libaom_plugin.dll": {
+      "contrib_path_components": [
+        "aom",
+        "pthreads"
+      ],
+      "debuglink_crc32": "1dad5ace"
+    },
+    "plugins/codec/libaraw_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6fe5888a"
+    },
+    "plugins/codec/libavcodec_plugin.dll": {
+      "contrib_path_components": [
+        "lame",
+        "openjpeg",
+        "pthreads",
+        "zlib"
+      ],
+      "debuglink_crc32": "8b3aa726"
+    },
+    "plugins/codec/libcc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cd155462"
+    },
+    "plugins/codec/libcdg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bb5e9282"
+    },
+    "plugins/codec/libcrystalhd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "15b517d4"
+    },
+    "plugins/codec/libcvdsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6ee8ecf5"
+    },
+    "plugins/codec/libd3d11va_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2a221d0a"
+    },
+    "plugins/codec/libdav1d_plugin.dll": {
+      "contrib_path_components": [
+        "dav1d"
+      ],
+      "debuglink_crc32": "d2cf8b51"
+    },
+    "plugins/codec/libddummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7754059d"
+    },
+    "plugins/codec/libdmo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5f57ca67"
+    },
+    "plugins/codec/libdvbsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c41b445e"
+    },
+    "plugins/codec/libdxva2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2376fec9"
+    },
+    "plugins/codec/libedummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b0bb7b13"
+    },
+    "plugins/codec/libflac_plugin.dll": {
+      "contrib_path_components": [
+        "flac",
+        "libogg"
+      ],
+      "debuglink_crc32": "6bbfb9f5"
+    },
+    "plugins/codec/libfluidsynth_plugin.dll": {
+      "contrib_path_components": [
+        "fluidlite"
+      ],
+      "debuglink_crc32": "dd42acf7"
+    },
+    "plugins/codec/libg711_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9609bfda"
+    },
+    "plugins/codec/libjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "789cf2b6"
+    },
+    "plugins/codec/libkate_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6c44a1d6"
+    },
+    "plugins/codec/liblibass_plugin.dll": {
+      "contrib_path_components": [
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "harfbuzz",
+        "iconv",
+        "zlib"
+      ],
+      "debuglink_crc32": "66550e37"
+    },
+    "plugins/codec/liblpcm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "32fd797d"
+    },
+    "plugins/codec/libmft_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4b0b6617"
+    },
+    "plugins/codec/libmpg123_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "dfb15835"
+    },
+    "plugins/codec/liboggspots_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7a02758f"
+    },
+    "plugins/codec/libopus_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1ec5181b"
+    },
+    "plugins/codec/libpng_plugin.dll": {
+      "contrib_path_components": [
+        "png",
+        "zlib"
+      ],
+      "debuglink_crc32": "a1c2f63f"
+    },
+    "plugins/codec/libqsv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c5785ca7"
+    },
+    "plugins/codec/librawvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "419051aa"
+    },
+    "plugins/codec/librtpvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "626aefee"
+    },
+    "plugins/codec/libschroedinger_plugin.dll": {
+      "contrib_path_components": [
+        "orc",
+        "schroedinger"
+      ],
+      "debuglink_crc32": "2fbdcd0c"
+    },
+    "plugins/codec/libscte18_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "95af9dec"
+    },
+    "plugins/codec/libscte27_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a911413f"
+    },
+    "plugins/codec/libsdl_image_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "687ad73b"
+    },
+    "plugins/codec/libspdif_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1c45078b"
+    },
+    "plugins/codec/libspeex_plugin.dll": {
+      "contrib_path_components": [
+        "speex"
+      ],
+      "debuglink_crc32": "01bca575"
+    },
+    "plugins/codec/libspudec_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "24e7b6c6"
+    },
+    "plugins/codec/libstl_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "eb8da02e"
+    },
+    "plugins/codec/libsubsdec_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f3a5196f"
+    },
+    "plugins/codec/libsubstx3g_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7de70ab2"
+    },
+    "plugins/codec/libsubsusf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a52bbcc9"
+    },
+    "plugins/codec/libsvcdsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c5346d54"
+    },
+    "plugins/codec/libtextst_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e88cd298"
+    },
+    "plugins/codec/libtheora_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libtheora"
+      ],
+      "debuglink_crc32": "222c5cc4"
+    },
+    "plugins/codec/libttml_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c3b629e3"
+    },
+    "plugins/codec/libtwolame_plugin.dll": {
+      "contrib_path_components": [
+        "twolame"
+      ],
+      "debuglink_crc32": "5250915d"
+    },
+    "plugins/codec/libuleaddvaudio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "828a80e7"
+    },
+    "plugins/codec/libvorbis_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libvorbis"
+      ],
+      "debuglink_crc32": "b375faf9"
+    },
+    "plugins/codec/libvpx_plugin.dll": {
+      "contrib_path_components": [
+        "libvpx",
+        "pthreads"
+      ],
+      "debuglink_crc32": "b1dfde36"
+    },
+    "plugins/codec/libwebvtt_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "131b6f4b"
+    },
+    "plugins/codec/libx26410b_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6f589fbf"
+    },
+    "plugins/codec/libzvbi_plugin.dll": {
+      "contrib_path_components": [
+        "iconv",
+        "png",
+        "pthreads",
+        "zlib",
+        "zvbi"
+      ],
+      "debuglink_crc32": "7ac92ada"
+    },
+    "plugins/d3d11/libdirect3d11_filters_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a0e0a001"
+    },
+    "plugins/d3d9/libdirect3d9_filters_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4f78fd61"
+    },
+    "plugins/demux/libadaptive_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error",
+        "zlib"
+      ],
+      "debuglink_crc32": "9f8a4695"
+    },
+    "plugins/demux/libaiff_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2c2274ad"
+    },
+    "plugins/demux/libasf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "72dc9da8"
+    },
+    "plugins/demux/libau_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "af8bf65a"
+    },
+    "plugins/demux/libavi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8e50e950"
+    },
+    "plugins/demux/libcaf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f746dca0"
+    },
+    "plugins/demux/libdemux_cdg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9c94b543"
+    },
+    "plugins/demux/libdemux_chromecast_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "824358e3"
+    },
+    "plugins/demux/libdemux_stl_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a1d0f19a"
+    },
+    "plugins/demux/libdemuxdump_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1aa731a6"
+    },
+    "plugins/demux/libdiracsys_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "78770c12"
+    },
+    "plugins/demux/libdirectory_demux_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "471a2f4d"
+    },
+    "plugins/demux/libdmxmus_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "69c4abaf"
+    },
+    "plugins/demux/libes_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1411b17a"
+    },
+    "plugins/demux/libflacsys_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "98db95ec"
+    },
+    "plugins/demux/libgme_plugin.dll": {
+      "contrib_path_components": [
+        "game-music-emu",
+        "zlib"
+      ],
+      "debuglink_crc32": "3e99f291"
+    },
+    "plugins/demux/libh26x_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b45808f7"
+    },
+    "plugins/demux/libimage_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "827f9267"
+    },
+    "plugins/demux/libmjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5477e87e"
+    },
+    "plugins/demux/libmkv_plugin.dll": {
+      "contrib_path_components": [
+        "ebml",
+        "matroska",
+        "zlib"
+      ],
+      "debuglink_crc32": "179a3ad4"
+    },
+    "plugins/demux/libmod_plugin.dll": {
+      "contrib_path_components": [
+        "libmodplug"
+      ],
+      "debuglink_crc32": "451255a5"
+    },
+    "plugins/demux/libmp4_plugin.dll": {
+      "contrib_path_components": [
+        "zlib"
+      ],
+      "debuglink_crc32": "998cfe2a"
+    },
+    "plugins/demux/libmpgv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "eaa74221"
+    },
+    "plugins/demux/libnoseek_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5b577bd9"
+    },
+    "plugins/demux/libnsc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "353eb212"
+    },
+    "plugins/demux/libnsv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "791ce5f8"
+    },
+    "plugins/demux/libnuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8a62bebc"
+    },
+    "plugins/demux/libogg_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libvorbis"
+      ],
+      "debuglink_crc32": "65bf6d17"
+    },
+    "plugins/demux/libplaylist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b348b390"
+    },
+    "plugins/demux/libps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ccfba88e"
+    },
+    "plugins/demux/libpva_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "46aebe3d"
+    },
+    "plugins/demux/librawaud_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e76692f2"
+    },
+    "plugins/demux/librawdv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a473310e"
+    },
+    "plugins/demux/librawvid_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0d6905a3"
+    },
+    "plugins/demux/libsmf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "17d276b3"
+    },
+    "plugins/demux/libsubtitle_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "212f05d2"
+    },
+    "plugins/demux/libts_plugin.dll": {
+      "contrib_path_components": [
+        "libdvbpsi",
+        "png",
+        "zlib"
+      ],
+      "debuglink_crc32": "4d9e505a"
+    },
+    "plugins/demux/libtta_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b589f287"
+    },
+    "plugins/demux/libty_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "626e4548"
+    },
+    "plugins/demux/libvc1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "644c438b"
+    },
+    "plugins/demux/libvobsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "345a0822"
+    },
+    "plugins/demux/libvoc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0139019d"
+    },
+    "plugins/demux/libwav_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d0e8f1a1"
+    },
+    "plugins/demux/libxa_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6ff8cab4"
+    },
+    "plugins/keystore/libfile_keystore_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "93bbf086"
+    },
+    "plugins/keystore/libmemory_keystore_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7a279d17"
+    },
+    "plugins/logger/libconsole_logger_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0716ed2b"
+    },
+    "plugins/lua/liblua_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3d8180ae"
+    },
+    "plugins/meta_engine/libfolder_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8f0e9ad0"
+    },
+    "plugins/meta_engine/libtaglib_plugin.dll": {
+      "contrib_path_components": [
+        "taglib",
+        "zlib"
+      ],
+      "debuglink_crc32": "eeb1e1ac"
+    },
+    "plugins/misc/libaddonsfsstorage_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f00638ed"
+    },
+    "plugins/misc/libaddonsvorepository_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6afd8212"
+    },
+    "plugins/misc/libfingerprinter_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6279af17"
+    },
+    "plugins/misc/libgnutls_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "zlib"
+      ],
+      "debuglink_crc32": "11178487"
+    },
+    "plugins/misc/libxml_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "810c6160"
+    },
+    "plugins/mux/libmux_asf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "57c766af"
+    },
+    "plugins/mux/libmux_avi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "67daa2a2"
+    },
+    "plugins/mux/libmux_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "de8719fb"
+    },
+    "plugins/mux/libmux_mp4_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bc2f3852"
+    },
+    "plugins/mux/libmux_mpjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "930f6849"
+    },
+    "plugins/mux/libmux_ogg_plugin.dll": {
+      "contrib_path_components": [
+        "libogg"
+      ],
+      "debuglink_crc32": "c6760cd4"
+    },
+    "plugins/mux/libmux_ps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "eb589c05"
+    },
+    "plugins/mux/libmux_ts_plugin.dll": {
+      "contrib_path_components": [
+        "libdvbpsi"
+      ],
+      "debuglink_crc32": "362acf74"
+    },
+    "plugins/mux/libmux_wav_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8dc18866"
+    },
+    "plugins/packetizer/libpacketizer_av1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "51563370"
+    },
+    "plugins/packetizer/libpacketizer_copy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "251f8461"
+    },
+    "plugins/packetizer/libpacketizer_dirac_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b3db31c7"
+    },
+    "plugins/packetizer/libpacketizer_dts_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cb51a0ad"
+    },
+    "plugins/packetizer/libpacketizer_flac_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "14c28370"
+    },
+    "plugins/packetizer/libpacketizer_h264_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e3457861"
+    },
+    "plugins/packetizer/libpacketizer_hevc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a63dd85b"
+    },
+    "plugins/packetizer/libpacketizer_mlp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f92c0db0"
+    },
+    "plugins/packetizer/libpacketizer_mpeg4audio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "93d96558"
+    },
+    "plugins/packetizer/libpacketizer_mpeg4video_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2f59c0c9"
+    },
+    "plugins/packetizer/libpacketizer_mpegaudio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8cb414e1"
+    },
+    "plugins/packetizer/libpacketizer_mpegvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a6f11485"
+    },
+    "plugins/packetizer/libpacketizer_vc1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ab470caa"
+    },
+    "plugins/services_discovery/libmicrodns_plugin.dll": {
+      "contrib_path_components": [
+        "microdns"
+      ],
+      "debuglink_crc32": "e69a14a5"
+    },
+    "plugins/services_discovery/libupnp_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads",
+        "upnp"
+      ],
+      "debuglink_crc32": "918ee055"
+    },
+    "plugins/services_discovery/libwindrive_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4cc8776d"
+    },
+    "plugins/spu/libaudiobargraph_v_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "feb46bad"
+    },
+    "plugins/spu/liblogo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "69922049"
+    },
+    "plugins/spu/libmarq_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "399a9603"
+    },
+    "plugins/spu/libmosaic_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "00541b2f"
+    },
+    "plugins/spu/libremoteosd_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "cba3d6f4"
+    },
+    "plugins/spu/librss_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c24b8005"
+    },
+    "plugins/spu/libsubsdelay_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4bf19a33"
+    },
+    "plugins/stream_extractor/libarchive_plugin.dll": {
+      "contrib_path_components": [
+        "libarchive",
+        "zlib"
+      ],
+      "debuglink_crc32": "55a13f4c"
+    },
+    "plugins/stream_filter/libadf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "46a39414"
+    },
+    "plugins/stream_filter/libaribcam_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c936a0fc"
+    },
+    "plugins/stream_filter/libcache_block_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c5353a09"
+    },
+    "plugins/stream_filter/libcache_read_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1f23d044"
+    },
+    "plugins/stream_filter/libhds_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6786abf7"
+    },
+    "plugins/stream_filter/libinflate_plugin.dll": {
+      "contrib_path_components": [
+        "zlib"
+      ],
+      "debuglink_crc32": "27c3bd0b"
+    },
+    "plugins/stream_filter/libprefetch_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2d7ca064"
+    },
+    "plugins/stream_filter/librecord_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7c0e511c"
+    },
+    "plugins/stream_filter/libskiptags_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "74003814"
+    },
+    "plugins/stream_out/libstream_out_autodel_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5d9cdbcc"
+    },
+    "plugins/stream_out/libstream_out_bridge_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1e740849"
+    },
+    "plugins/stream_out/libstream_out_chromaprint_plugin.dll": {
+      "contrib_path_components": [
+        "chromaprint",
+        "pthreads"
+      ],
+      "debuglink_crc32": "d37e42c8"
+    },
+    "plugins/stream_out/libstream_out_chromecast_plugin.dll": {
+      "contrib_path_components": [
+        "protobuf"
+      ],
+      "debuglink_crc32": "02c80f52"
+    },
+    "plugins/stream_out/libstream_out_delay_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5c8722fb"
+    },
+    "plugins/stream_out/libstream_out_description_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "882f38f1"
+    },
+    "plugins/stream_out/libstream_out_display_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f28e258e"
+    },
+    "plugins/stream_out/libstream_out_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "89ecbf07"
+    },
+    "plugins/stream_out/libstream_out_duplicate_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8998f386"
+    },
+    "plugins/stream_out/libstream_out_es_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "78e8e4cb"
+    },
+    "plugins/stream_out/libstream_out_gather_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e3bfd3a7"
+    },
+    "plugins/stream_out/libstream_out_mosaic_bridge_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a72a4702"
+    },
+    "plugins/stream_out/libstream_out_record_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8cc2b77e"
+    },
+    "plugins/stream_out/libstream_out_setid_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cae04640"
+    },
+    "plugins/stream_out/libstream_out_smem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2d68f9f4"
+    },
+    "plugins/stream_out/libstream_out_standard_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "497b8a77"
+    },
+    "plugins/stream_out/libstream_out_stats_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8edbe960"
+    },
+    "plugins/stream_out/libstream_out_transcode_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "18896041"
+    },
+    "plugins/text_renderer/libfreetype_plugin.dll": {
+      "contrib_path_components": [
+        "freetype",
+        "fribidi",
+        "harfbuzz",
+        "zlib"
+      ],
+      "debuglink_crc32": "fb97cd4f"
+    },
+    "plugins/text_renderer/libsapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "970f6fbf"
+    },
+    "plugins/text_renderer/libtdummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0a2038eb"
+    },
+    "plugins/video_chroma/libchain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "98727a36"
+    },
+    "plugins/video_chroma/libgrey_yuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "19d12ae2"
+    },
+    "plugins/video_chroma/libi420_10_p010_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "86cc0b2b"
+    },
+    "plugins/video_chroma/libi420_nv12_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9a49cb9e"
+    },
+    "plugins/video_chroma/libi420_rgb_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5f6defba"
+    },
+    "plugins/video_chroma/libi420_rgb_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "28924bd4"
+    },
+    "plugins/video_chroma/libi420_rgb_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "54ea3123"
+    },
+    "plugins/video_chroma/libi420_yuy2_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0b75c56f"
+    },
+    "plugins/video_chroma/libi420_yuy2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d53e3536"
+    },
+    "plugins/video_chroma/libi420_yuy2_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2d34d36a"
+    },
+    "plugins/video_chroma/libi422_i420_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8b0fba25"
+    },
+    "plugins/video_chroma/libi422_yuy2_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6e71b15b"
+    },
+    "plugins/video_chroma/libi422_yuy2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "143cba9d"
+    },
+    "plugins/video_chroma/libi422_yuy2_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b9b5fba9"
+    },
+    "plugins/video_chroma/librv32_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "94e7cb28"
+    },
+    "plugins/video_chroma/libswscale_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "294587eb"
+    },
+    "plugins/video_chroma/libyuvp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b3c29db2"
+    },
+    "plugins/video_chroma/libyuy2_i420_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3ecdedb7"
+    },
+    "plugins/video_chroma/libyuy2_i422_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "adc7c3d1"
+    },
+    "plugins/video_filter/libadjust_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "22d49e55"
+    },
+    "plugins/video_filter/libalphamask_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "840814e3"
+    },
+    "plugins/video_filter/libanaglyph_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ec3bb3e8"
+    },
+    "plugins/video_filter/libantiflicker_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b7c09eb9"
+    },
+    "plugins/video_filter/libball_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8b365ec2"
+    },
+    "plugins/video_filter/libblend_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "eb66816b"
+    },
+    "plugins/video_filter/libblendbench_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e6983121"
+    },
+    "plugins/video_filter/libbluescreen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "16cec46e"
+    },
+    "plugins/video_filter/libcanvas_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "81cdaec0"
+    },
+    "plugins/video_filter/libcolorthres_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "45970194"
+    },
+    "plugins/video_filter/libcroppadd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fd3bbed5"
+    },
+    "plugins/video_filter/libdeinterlace_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3ea8ae2d"
+    },
+    "plugins/video_filter/libedgedetection_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "15f5b4dd"
+    },
+    "plugins/video_filter/liberase_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a51b73a7"
+    },
+    "plugins/video_filter/libextract_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2af2052e"
+    },
+    "plugins/video_filter/libfps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6730d7ed"
+    },
+    "plugins/video_filter/libfreeze_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e025058c"
+    },
+    "plugins/video_filter/libgaussianblur_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "76221754"
+    },
+    "plugins/video_filter/libgradfun_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e8df72aa"
+    },
+    "plugins/video_filter/libgradient_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "902e8bb4"
+    },
+    "plugins/video_filter/libgrain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1767b886"
+    },
+    "plugins/video_filter/libhqdn3d_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9ea8c09c"
+    },
+    "plugins/video_filter/libinvert_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6137c895"
+    },
+    "plugins/video_filter/libmagnify_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d1673578"
+    },
+    "plugins/video_filter/libmirror_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e1f3a494"
+    },
+    "plugins/video_filter/libmotionblur_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "23684684"
+    },
+    "plugins/video_filter/libmotiondetect_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4570a6ca"
+    },
+    "plugins/video_filter/liboldmovie_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "426532ad"
+    },
+    "plugins/video_filter/libposterize_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "58ecf723"
+    },
+    "plugins/video_filter/libpsychedelic_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0edefd66"
+    },
+    "plugins/video_filter/libpuzzle_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5ed045a1"
+    },
+    "plugins/video_filter/libripple_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8db69e6c"
+    },
+    "plugins/video_filter/libscale_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3c135d4b"
+    },
+    "plugins/video_filter/libscene_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e938334f"
+    },
+    "plugins/video_filter/libsepia_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3b4a2412"
+    },
+    "plugins/video_filter/libsharpen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a71ae213"
+    },
+    "plugins/video_filter/libtransform_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "023a4541"
+    },
+    "plugins/video_filter/libvhs_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d7847db1"
+    },
+    "plugins/video_filter/libwave_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "48135e38"
+    },
+    "plugins/video_output/libcaca_plugin.dll": {
+      "contrib_path_components": [
+        "caca",
+        "zlib"
+      ],
+      "debuglink_crc32": "902647e7"
+    },
+    "plugins/video_output/libdirect3d11_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "69cbdc77"
+    },
+    "plugins/video_output/libdirect3d9_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "17dbd3ce"
+    },
+    "plugins/video_output/libdirectdraw_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9e8fa9c4"
+    },
+    "plugins/video_output/libdrawable_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "422e31e1"
+    },
+    "plugins/video_output/libflaschen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2227a226"
+    },
+    "plugins/video_output/libgl_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "e99c82de"
+    },
+    "plugins/video_output/libglinterop_dxva2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "44ca63f3"
+    },
+    "plugins/video_output/libglwin32_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "066ba20c"
+    },
+    "plugins/video_output/libvdummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d13bb8ab"
+    },
+    "plugins/video_output/libvmem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e3110627"
+    },
+    "plugins/video_output/libwgl_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "eae20eba"
+    },
+    "plugins/video_output/libwingdi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4a75dfd4"
+    },
+    "plugins/video_output/libwinhibit_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "16b78834"
+    },
+    "plugins/video_output/libyuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f33dd849"
+    },
+    "plugins/video_splitter/libclone_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "372f8934"
+    },
+    "plugins/video_splitter/libpanoramix_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b2321a5d"
+    },
+    "plugins/video_splitter/libwall_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5d994c0d"
+    },
+    "plugins/visualization/libglspectrum_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bc36201e"
+    },
+    "plugins/visualization/libgoom_plugin.dll": {
+      "contrib_path_components": [
+        "goom"
+      ],
+      "debuglink_crc32": "c63f0eb0"
+    },
+    "plugins/visualization/libprojectm_plugin.dll": {
+      "contrib_path_components": [
+        "glew",
+        "projectM"
+      ],
+      "debuglink_crc32": "de24db50"
+    },
+    "plugins/visualization/libvisual_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ab7304f8"
+    }
+  },
+  "win64": {
+    "libvlc.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4886d94e"
+    },
+    "libvlccore.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "gettext",
+        "iconv",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "f6c9e4dc"
+    },
+    "plugins/access/libaccess_concat_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bba145b4"
+    },
+    "plugins/access/libaccess_imem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "849eb369"
+    },
+    "plugins/access/libaccess_mms_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "857a53f3"
+    },
+    "plugins/access/libaccess_srt_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "pthreads",
+        "srt",
+        "zlib"
+      ],
+      "debuglink_crc32": "b0488e3a"
+    },
+    "plugins/access/libaccess_wasapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "293afec0"
+    },
+    "plugins/access/libattachment_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "748f64fd"
+    },
+    "plugins/access/libcdda_plugin.dll": {
+      "contrib_path_components": [
+        "cddb",
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "64d089d7"
+    },
+    "plugins/access/libdcp_plugin.dll": {
+      "contrib_path_components": [
+        "asdcplib",
+        "gcrypt",
+        "gmp",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "77b5477c"
+    },
+    "plugins/access/libdtv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d2a49fa5"
+    },
+    "plugins/access/libfilesystem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7b8da6a7"
+    },
+    "plugins/access/libftp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4015f2f3"
+    },
+    "plugins/access/libhttp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f62ba8d2"
+    },
+    "plugins/access/libhttps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "54049ddf"
+    },
+    "plugins/access/libidummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "91e57284"
+    },
+    "plugins/access/libimem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "87528ce3"
+    },
+    "plugins/access/liblibbluray_plugin.dll": {
+      "contrib_path_components": [
+        "bluray",
+        "freetype",
+        "zlib"
+      ],
+      "debuglink_crc32": "84ea9e1e"
+    },
+    "plugins/access/liblive555_plugin.dll": {
+      "contrib_path_components": [
+        "live555"
+      ],
+      "debuglink_crc32": "2303fb31"
+    },
+    "plugins/access/libnfs_plugin.dll": {
+      "contrib_path_components": [
+        "nfs"
+      ],
+      "debuglink_crc32": "25830d40"
+    },
+    "plugins/access/librist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ac5c2892"
+    },
+    "plugins/access/librtp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "60f10de7"
+    },
+    "plugins/access/libsatip_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4f6cb738"
+    },
+    "plugins/access/libscreen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "753771c6"
+    },
+    "plugins/access/libsdp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a211ca0e"
+    },
+    "plugins/access/libsftp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error",
+        "ssh2",
+        "zlib"
+      ],
+      "debuglink_crc32": "1c8a38cd"
+    },
+    "plugins/access/libshm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "eb4f381c"
+    },
+    "plugins/access/libsmb_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "80b1d926"
+    },
+    "plugins/access/libtcp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3a389e9a"
+    },
+    "plugins/access/libtimecode_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "970c0676"
+    },
+    "plugins/access/libudp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "50e4a5c4"
+    },
+    "plugins/access/libvcd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9db1664b"
+    },
+    "plugins/access/libvdr_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "40588552"
+    },
+    "plugins/access_output/libaccess_output_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "37070ee1"
+    },
+    "plugins/access_output/libaccess_output_file_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4a20f9f5"
+    },
+    "plugins/access_output/libaccess_output_http_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8bc4c269"
+    },
+    "plugins/access_output/libaccess_output_livehttp_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "ba54c17e"
+    },
+    "plugins/access_output/libaccess_output_rist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "24425e7a"
+    },
+    "plugins/access_output/libaccess_output_shout_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libshout",
+        "libtheora",
+        "libvorbis",
+        "speex"
+      ],
+      "debuglink_crc32": "986240e9"
+    },
+    "plugins/access_output/libaccess_output_srt_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "pthreads",
+        "srt",
+        "zlib"
+      ],
+      "debuglink_crc32": "fa5e13aa"
+    },
+    "plugins/access_output/libaccess_output_udp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c99194d2"
+    },
+    "plugins/audio_filter/libaudio_format_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ae125ebe"
+    },
+    "plugins/audio_filter/libaudiobargraph_a_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "88c1b9d3"
+    },
+    "plugins/audio_filter/libchorus_flanger_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3a965542"
+    },
+    "plugins/audio_filter/libcompressor_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5238cc4a"
+    },
+    "plugins/audio_filter/libdolby_surround_decoder_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3e47e8ec"
+    },
+    "plugins/audio_filter/libequalizer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0e32c55f"
+    },
+    "plugins/audio_filter/libgain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e8f94ed7"
+    },
+    "plugins/audio_filter/libheadphone_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b2646b85"
+    },
+    "plugins/audio_filter/libkaraoke_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "814b6b3f"
+    },
+    "plugins/audio_filter/libnormvol_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2f84ad2a"
+    },
+    "plugins/audio_filter/libparam_eq_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "488de4e2"
+    },
+    "plugins/audio_filter/libremap_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ec6d4b9c"
+    },
+    "plugins/audio_filter/libscaletempo_pitch_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "18f7f615"
+    },
+    "plugins/audio_filter/libscaletempo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4002e218"
+    },
+    "plugins/audio_filter/libsimple_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c590f567"
+    },
+    "plugins/audio_filter/libspatialaudio_plugin.dll": {
+      "contrib_path_components": [
+        "mysofa",
+        "spatialaudio",
+        "zlib"
+      ],
+      "debuglink_crc32": "f2918087"
+    },
+    "plugins/audio_filter/libspatializer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0b67d9fb"
+    },
+    "plugins/audio_filter/libspeex_resampler_plugin.dll": {
+      "contrib_path_components": [
+        "speexdsp"
+      ],
+      "debuglink_crc32": "634504b6"
+    },
+    "plugins/audio_filter/libstereo_widen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "68144806"
+    },
+    "plugins/audio_filter/libtospdif_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f0ea42bf"
+    },
+    "plugins/audio_filter/libtrivial_channel_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cfe3c57e"
+    },
+    "plugins/audio_filter/libugly_resampler_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5c9e2359"
+    },
+    "plugins/audio_mixer/libfloat_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0625bba4"
+    },
+    "plugins/audio_mixer/libinteger_mixer_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1b1cbda6"
+    },
+    "plugins/audio_output/libadummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "db835ad7"
+    },
+    "plugins/audio_output/libafile_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8e4c3122"
+    },
+    "plugins/audio_output/libamem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cb5889a7"
+    },
+    "plugins/audio_output/libdirectsound_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3abe2c61"
+    },
+    "plugins/audio_output/libmmdevice_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7c480a20"
+    },
+    "plugins/audio_output/libwasapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d352c5e7"
+    },
+    "plugins/audio_output/libwaveout_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "735f4908"
+    },
+    "plugins/codec/libadpcm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "241c1041"
+    },
+    "plugins/codec/libaes3_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2c320ff9"
+    },
+    "plugins/codec/libaom_plugin.dll": {
+      "contrib_path_components": [
+        "aom",
+        "pthreads"
+      ],
+      "debuglink_crc32": "e3b5d6cf"
+    },
+    "plugins/codec/libaraw_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7ff32244"
+    },
+    "plugins/codec/libavcodec_plugin.dll": {
+      "contrib_path_components": [
+        "lame",
+        "openjpeg",
+        "pthreads",
+        "zlib"
+      ],
+      "debuglink_crc32": "4a6cb44b"
+    },
+    "plugins/codec/libcc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "79eafcfb"
+    },
+    "plugins/codec/libcdg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1557711a"
+    },
+    "plugins/codec/libcrystalhd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "73562561"
+    },
+    "plugins/codec/libcvdsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3ab7cb9f"
+    },
+    "plugins/codec/libd3d11va_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "53c47a63"
+    },
+    "plugins/codec/libdav1d_plugin.dll": {
+      "contrib_path_components": [
+        "dav1d"
+      ],
+      "debuglink_crc32": "3c0ccafb"
+    },
+    "plugins/codec/libddummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4818e18d"
+    },
+    "plugins/codec/libdmo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fc033a08"
+    },
+    "plugins/codec/libdvbsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d9133f06"
+    },
+    "plugins/codec/libdxva2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b633318a"
+    },
+    "plugins/codec/libedummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b177f5bd"
+    },
+    "plugins/codec/libflac_plugin.dll": {
+      "contrib_path_components": [
+        "flac",
+        "libogg"
+      ],
+      "debuglink_crc32": "873fbe62"
+    },
+    "plugins/codec/libfluidsynth_plugin.dll": {
+      "contrib_path_components": [
+        "fluidlite"
+      ],
+      "debuglink_crc32": "c9ee4c72"
+    },
+    "plugins/codec/libg711_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1b23ba3a"
+    },
+    "plugins/codec/libjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "327280fd"
+    },
+    "plugins/codec/libkate_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4bb23359"
+    },
+    "plugins/codec/liblibass_plugin.dll": {
+      "contrib_path_components": [
+        "fontconfig",
+        "freetype",
+        "fribidi",
+        "harfbuzz",
+        "iconv",
+        "zlib"
+      ],
+      "debuglink_crc32": "79285f73"
+    },
+    "plugins/codec/liblpcm_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "15ca6597"
+    },
+    "plugins/codec/libmft_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c91be2d7"
+    },
+    "plugins/codec/libmpg123_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9677d0d7"
+    },
+    "plugins/codec/liboggspots_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "29a5546a"
+    },
+    "plugins/codec/libopus_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1ee64bbf"
+    },
+    "plugins/codec/libpng_plugin.dll": {
+      "contrib_path_components": [
+        "png",
+        "zlib"
+      ],
+      "debuglink_crc32": "c2820099"
+    },
+    "plugins/codec/libqsv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "5f9aabcc"
+    },
+    "plugins/codec/librawvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "47db423e"
+    },
+    "plugins/codec/librtpvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "459aecde"
+    },
+    "plugins/codec/libschroedinger_plugin.dll": {
+      "contrib_path_components": [
+        "orc",
+        "schroedinger"
+      ],
+      "debuglink_crc32": "d22e9fdb"
+    },
+    "plugins/codec/libscte18_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "27e7100d"
+    },
+    "plugins/codec/libscte27_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ef4050e5"
+    },
+    "plugins/codec/libsdl_image_plugin.dll": {
+      "contrib_path_components": [
+        "tiff"
+      ],
+      "debuglink_crc32": "f2c4d709"
+    },
+    "plugins/codec/libspdif_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "09a7a260"
+    },
+    "plugins/codec/libspeex_plugin.dll": {
+      "contrib_path_components": [
+        "speex"
+      ],
+      "debuglink_crc32": "b720f9cf"
+    },
+    "plugins/codec/libspudec_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e8925cdc"
+    },
+    "plugins/codec/libstl_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "57030345"
+    },
+    "plugins/codec/libsubsdec_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6214636e"
+    },
+    "plugins/codec/libsubstx3g_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6c35276d"
+    },
+    "plugins/codec/libsubsusf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e32fb761"
+    },
+    "plugins/codec/libsvcdsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1636dd8e"
+    },
+    "plugins/codec/libtextst_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f1f181d0"
+    },
+    "plugins/codec/libtheora_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libtheora"
+      ],
+      "debuglink_crc32": "5841986d"
+    },
+    "plugins/codec/libttml_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "91ba39b9"
+    },
+    "plugins/codec/libtwolame_plugin.dll": {
+      "contrib_path_components": [
+        "twolame"
+      ],
+      "debuglink_crc32": "06a91c19"
+    },
+    "plugins/codec/libuleaddvaudio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c22e2098"
+    },
+    "plugins/codec/libvorbis_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libvorbis"
+      ],
+      "debuglink_crc32": "524f4f9f"
+    },
+    "plugins/codec/libvpx_plugin.dll": {
+      "contrib_path_components": [
+        "libvpx",
+        "pthreads"
+      ],
+      "debuglink_crc32": "905f7d54"
+    },
+    "plugins/codec/libwebvtt_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d1b71bc2"
+    },
+    "plugins/codec/libx26410b_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "ebe3d8b1"
+    },
+    "plugins/codec/libzvbi_plugin.dll": {
+      "contrib_path_components": [
+        "iconv",
+        "png",
+        "pthreads",
+        "zlib",
+        "zvbi"
+      ],
+      "debuglink_crc32": "9bf6e496"
+    },
+    "plugins/d3d11/libdirect3d11_filters_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f6a8c4dd"
+    },
+    "plugins/d3d9/libdirect3d9_filters_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3bdf2284"
+    },
+    "plugins/demux/libadaptive_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error",
+        "zlib"
+      ],
+      "debuglink_crc32": "ec26661a"
+    },
+    "plugins/demux/libaiff_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "087f1a96"
+    },
+    "plugins/demux/libasf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "348f9fd9"
+    },
+    "plugins/demux/libau_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d1da45c5"
+    },
+    "plugins/demux/libavi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f88771e8"
+    },
+    "plugins/demux/libcaf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "54a0d6ab"
+    },
+    "plugins/demux/libdemux_cdg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "870d6bf1"
+    },
+    "plugins/demux/libdemux_chromecast_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c8a45923"
+    },
+    "plugins/demux/libdemux_stl_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "981a1c18"
+    },
+    "plugins/demux/libdemuxdump_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "20c1d194"
+    },
+    "plugins/demux/libdiracsys_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a6a6ead8"
+    },
+    "plugins/demux/libdirectory_demux_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ecdffff3"
+    },
+    "plugins/demux/libdmxmus_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "707a6ae7"
+    },
+    "plugins/demux/libes_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b11bd3fb"
+    },
+    "plugins/demux/libflacsys_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "36541cce"
+    },
+    "plugins/demux/libgme_plugin.dll": {
+      "contrib_path_components": [
+        "game-music-emu",
+        "zlib"
+      ],
+      "debuglink_crc32": "2075ada8"
+    },
+    "plugins/demux/libh26x_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "68c77b03"
+    },
+    "plugins/demux/libimage_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a16b5b3a"
+    },
+    "plugins/demux/libmjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "25adb5e5"
+    },
+    "plugins/demux/libmkv_plugin.dll": {
+      "contrib_path_components": [
+        "ebml",
+        "matroska",
+        "zlib"
+      ],
+      "debuglink_crc32": "3a0be9c7"
+    },
+    "plugins/demux/libmod_plugin.dll": {
+      "contrib_path_components": [
+        "libmodplug"
+      ],
+      "debuglink_crc32": "2b5c92eb"
+    },
+    "plugins/demux/libmp4_plugin.dll": {
+      "contrib_path_components": [
+        "zlib"
+      ],
+      "debuglink_crc32": "490eb61d"
+    },
+    "plugins/demux/libmpgv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a90e518b"
+    },
+    "plugins/demux/libnoseek_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e28f2f2e"
+    },
+    "plugins/demux/libnsc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cfcd0e9e"
+    },
+    "plugins/demux/libnsv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "044f47bb"
+    },
+    "plugins/demux/libnuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a51fbcfe"
+    },
+    "plugins/demux/libogg_plugin.dll": {
+      "contrib_path_components": [
+        "libogg",
+        "libvorbis"
+      ],
+      "debuglink_crc32": "a1757103"
+    },
+    "plugins/demux/libplaylist_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "70232baa"
+    },
+    "plugins/demux/libps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cd5d37cc"
+    },
+    "plugins/demux/libpva_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1c7a34b4"
+    },
+    "plugins/demux/librawaud_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "dfd8c5ef"
+    },
+    "plugins/demux/librawdv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6df0bfa1"
+    },
+    "plugins/demux/librawvid_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "863901fc"
+    },
+    "plugins/demux/libsmf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "592344a9"
+    },
+    "plugins/demux/libsubtitle_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7e3c5a22"
+    },
+    "plugins/demux/libts_plugin.dll": {
+      "contrib_path_components": [
+        "libdvbpsi",
+        "png",
+        "zlib"
+      ],
+      "debuglink_crc32": "bf64e155"
+    },
+    "plugins/demux/libtta_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c23db80e"
+    },
+    "plugins/demux/libty_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0e6f6c89"
+    },
+    "plugins/demux/libvc1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8f4c9f38"
+    },
+    "plugins/demux/libvobsub_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4d731e89"
+    },
+    "plugins/demux/libvoc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bd7e9603"
+    },
+    "plugins/demux/libwav_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "99765487"
+    },
+    "plugins/demux/libxa_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "fb4a14a3"
+    },
+    "plugins/keystore/libfile_keystore_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ce5918c3"
+    },
+    "plugins/keystore/libmemory_keystore_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bbb80742"
+    },
+    "plugins/logger/libconsole_logger_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2afffeb2"
+    },
+    "plugins/lua/liblua_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e35eb213"
+    },
+    "plugins/meta_engine/libfolder_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "998c4ff3"
+    },
+    "plugins/meta_engine/libtaglib_plugin.dll": {
+      "contrib_path_components": [
+        "taglib",
+        "zlib"
+      ],
+      "debuglink_crc32": "73bc2297"
+    },
+    "plugins/misc/libaddonsfsstorage_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "900e440b"
+    },
+    "plugins/misc/libaddonsvorepository_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9dea4a3f"
+    },
+    "plugins/misc/libfingerprinter_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0d1fa0b0"
+    },
+    "plugins/misc/libgnutls_plugin.dll": {
+      "contrib_path_components": [
+        "gmp",
+        "gnutls",
+        "zlib"
+      ],
+      "debuglink_crc32": "1d37da5d"
+    },
+    "plugins/misc/libxml_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "dafb7078"
+    },
+    "plugins/mux/libmux_asf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2aaadf20"
+    },
+    "plugins/mux/libmux_avi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2bb59614"
+    },
+    "plugins/mux/libmux_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cf6e0480"
+    },
+    "plugins/mux/libmux_mp4_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "51192836"
+    },
+    "plugins/mux/libmux_mpjpeg_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b7615b23"
+    },
+    "plugins/mux/libmux_ogg_plugin.dll": {
+      "contrib_path_components": [
+        "libogg"
+      ],
+      "debuglink_crc32": "9da472e3"
+    },
+    "plugins/mux/libmux_ps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f415d6e6"
+    },
+    "plugins/mux/libmux_ts_plugin.dll": {
+      "contrib_path_components": [
+        "libdvbpsi"
+      ],
+      "debuglink_crc32": "a54f6fda"
+    },
+    "plugins/mux/libmux_wav_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "38e6d3db"
+    },
+    "plugins/packetizer/libpacketizer_av1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "58d221ba"
+    },
+    "plugins/packetizer/libpacketizer_copy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ed0ff61c"
+    },
+    "plugins/packetizer/libpacketizer_dirac_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "da8c8878"
+    },
+    "plugins/packetizer/libpacketizer_dts_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4c59395f"
+    },
+    "plugins/packetizer/libpacketizer_flac_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ed3d01f5"
+    },
+    "plugins/packetizer/libpacketizer_h264_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "94daf16e"
+    },
+    "plugins/packetizer/libpacketizer_hevc_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "622f2c42"
+    },
+    "plugins/packetizer/libpacketizer_mlp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "00ab49ef"
+    },
+    "plugins/packetizer/libpacketizer_mpeg4audio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "301bcfc3"
+    },
+    "plugins/packetizer/libpacketizer_mpeg4video_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b87e6c19"
+    },
+    "plugins/packetizer/libpacketizer_mpegaudio_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ca96534d"
+    },
+    "plugins/packetizer/libpacketizer_mpegvideo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b3a66a6b"
+    },
+    "plugins/packetizer/libpacketizer_vc1_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "923b9980"
+    },
+    "plugins/services_discovery/libmicrodns_plugin.dll": {
+      "contrib_path_components": [
+        "microdns"
+      ],
+      "debuglink_crc32": "518fd1df"
+    },
+    "plugins/services_discovery/libupnp_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads",
+        "upnp"
+      ],
+      "debuglink_crc32": "9a54db68"
+    },
+    "plugins/services_discovery/libwindrive_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9cc88a6c"
+    },
+    "plugins/spu/libaudiobargraph_v_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c1dad47b"
+    },
+    "plugins/spu/liblogo_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "970000d3"
+    },
+    "plugins/spu/libmarq_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "39c81833"
+    },
+    "plugins/spu/libmosaic_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2aadc577"
+    },
+    "plugins/spu/libremoteosd_plugin.dll": {
+      "contrib_path_components": [
+        "gcrypt",
+        "libgpg-error"
+      ],
+      "debuglink_crc32": "bcd5c8a3"
+    },
+    "plugins/spu/librss_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ad0cd388"
+    },
+    "plugins/spu/libsubsdelay_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "88acb18a"
+    },
+    "plugins/stream_extractor/libarchive_plugin.dll": {
+      "contrib_path_components": [
+        "libarchive",
+        "zlib"
+      ],
+      "debuglink_crc32": "606cd475"
+    },
+    "plugins/stream_filter/libadf_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "aa8a0c1c"
+    },
+    "plugins/stream_filter/libaribcam_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7d18d4f0"
+    },
+    "plugins/stream_filter/libcache_block_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "90b7da54"
+    },
+    "plugins/stream_filter/libcache_read_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7c493d1d"
+    },
+    "plugins/stream_filter/libhds_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c0654430"
+    },
+    "plugins/stream_filter/libinflate_plugin.dll": {
+      "contrib_path_components": [
+        "zlib"
+      ],
+      "debuglink_crc32": "5d5807d0"
+    },
+    "plugins/stream_filter/libprefetch_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3840e4a2"
+    },
+    "plugins/stream_filter/librecord_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "aae69c38"
+    },
+    "plugins/stream_filter/libskiptags_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c214f771"
+    },
+    "plugins/stream_out/libstream_out_autodel_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f6590a39"
+    },
+    "plugins/stream_out/libstream_out_bridge_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "7a0505f6"
+    },
+    "plugins/stream_out/libstream_out_chromaprint_plugin.dll": {
+      "contrib_path_components": [
+        "chromaprint",
+        "pthreads"
+      ],
+      "debuglink_crc32": "a3c2e1f5"
+    },
+    "plugins/stream_out/libstream_out_chromecast_plugin.dll": {
+      "contrib_path_components": [
+        "protobuf"
+      ],
+      "debuglink_crc32": "94d55908"
+    },
+    "plugins/stream_out/libstream_out_delay_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "26f42580"
+    },
+    "plugins/stream_out/libstream_out_description_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "75d75f16"
+    },
+    "plugins/stream_out/libstream_out_display_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4bbe6569"
+    },
+    "plugins/stream_out/libstream_out_dummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4ed6c419"
+    },
+    "plugins/stream_out/libstream_out_duplicate_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "826a9351"
+    },
+    "plugins/stream_out/libstream_out_es_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "08f6f959"
+    },
+    "plugins/stream_out/libstream_out_gather_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a9e3adc2"
+    },
+    "plugins/stream_out/libstream_out_mosaic_bridge_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e2cbdd87"
+    },
+    "plugins/stream_out/libstream_out_record_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "be58f192"
+    },
+    "plugins/stream_out/libstream_out_setid_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "45b10122"
+    },
+    "plugins/stream_out/libstream_out_smem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "591a2bae"
+    },
+    "plugins/stream_out/libstream_out_standard_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "040edbe5"
+    },
+    "plugins/stream_out/libstream_out_stats_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "97e01b70"
+    },
+    "plugins/stream_out/libstream_out_transcode_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "aaaf4e63"
+    },
+    "plugins/text_renderer/libfreetype_plugin.dll": {
+      "contrib_path_components": [
+        "freetype",
+        "fribidi",
+        "harfbuzz",
+        "zlib"
+      ],
+      "debuglink_crc32": "340a0132"
+    },
+    "plugins/text_renderer/libsapi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a48c54b5"
+    },
+    "plugins/text_renderer/libtdummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b882b0d4"
+    },
+    "plugins/video_chroma/libchain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8604a03f"
+    },
+    "plugins/video_chroma/libgrey_yuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0b83e3c3"
+    },
+    "plugins/video_chroma/libi420_10_p010_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "795d87e7"
+    },
+    "plugins/video_chroma/libi420_nv12_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2df15dce"
+    },
+    "plugins/video_chroma/libi420_rgb_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "065d0c4e"
+    },
+    "plugins/video_chroma/libi420_rgb_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "61c2aa5d"
+    },
+    "plugins/video_chroma/libi420_rgb_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "413f3bae"
+    },
+    "plugins/video_chroma/libi420_yuy2_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "dece20a6"
+    },
+    "plugins/video_chroma/libi420_yuy2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "1c161efb"
+    },
+    "plugins/video_chroma/libi420_yuy2_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9f28be0d"
+    },
+    "plugins/video_chroma/libi422_i420_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d57bca5a"
+    },
+    "plugins/video_chroma/libi422_yuy2_mmx_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9ab1374c"
+    },
+    "plugins/video_chroma/libi422_yuy2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c3d979a0"
+    },
+    "plugins/video_chroma/libi422_yuy2_sse2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ae0467ba"
+    },
+    "plugins/video_chroma/librv32_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c0aa0a93"
+    },
+    "plugins/video_chroma/libswscale_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "9da915a0"
+    },
+    "plugins/video_chroma/libyuvp_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d5244a08"
+    },
+    "plugins/video_chroma/libyuy2_i420_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "16ae4ac6"
+    },
+    "plugins/video_chroma/libyuy2_i422_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3ae3dcfb"
+    },
+    "plugins/video_filter/libadjust_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d6d34770"
+    },
+    "plugins/video_filter/libalphamask_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "86a5e332"
+    },
+    "plugins/video_filter/libanaglyph_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "edff1079"
+    },
+    "plugins/video_filter/libantiflicker_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b52ca20e"
+    },
+    "plugins/video_filter/libball_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "aa054068"
+    },
+    "plugins/video_filter/libblend_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d2629124"
+    },
+    "plugins/video_filter/libblendbench_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2f20bce1"
+    },
+    "plugins/video_filter/libbluescreen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4a6caa7e"
+    },
+    "plugins/video_filter/libcanvas_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "759b30de"
+    },
+    "plugins/video_filter/libcolorthres_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e15946cd"
+    },
+    "plugins/video_filter/libcroppadd_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "97adb0f5"
+    },
+    "plugins/video_filter/libdeinterlace_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4e0cdcb0"
+    },
+    "plugins/video_filter/libedgedetection_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9bf24a91"
+    },
+    "plugins/video_filter/liberase_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "c3c10f45"
+    },
+    "plugins/video_filter/libextract_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "de02d2af"
+    },
+    "plugins/video_filter/libfps_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "9d1690e4"
+    },
+    "plugins/video_filter/libfreeze_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "6e859ed9"
+    },
+    "plugins/video_filter/libgaussianblur_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f64ae8d6"
+    },
+    "plugins/video_filter/libgradfun_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "cd7d349b"
+    },
+    "plugins/video_filter/libgradient_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "77f47588"
+    },
+    "plugins/video_filter/libgrain_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "a6fec221"
+    },
+    "plugins/video_filter/libhqdn3d_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "df13e9e9"
+    },
+    "plugins/video_filter/libinvert_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e5d0a044"
+    },
+    "plugins/video_filter/libmagnify_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "98e5b685"
+    },
+    "plugins/video_filter/libmirror_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "2e695c5c"
+    },
+    "plugins/video_filter/libmotionblur_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "b9bac220"
+    },
+    "plugins/video_filter/libmotiondetect_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "83448325"
+    },
+    "plugins/video_filter/liboldmovie_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "004157e0"
+    },
+    "plugins/video_filter/libposterize_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "778552c5"
+    },
+    "plugins/video_filter/libpsychedelic_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "088ab729"
+    },
+    "plugins/video_filter/libpuzzle_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "402b68f7"
+    },
+    "plugins/video_filter/libripple_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "0db7e577"
+    },
+    "plugins/video_filter/libscale_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "478659bc"
+    },
+    "plugins/video_filter/libscene_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "ed0a8166"
+    },
+    "plugins/video_filter/libsepia_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "4ca94664"
+    },
+    "plugins/video_filter/libsharpen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "99be0e2a"
+    },
+    "plugins/video_filter/libtransform_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "55d2dfeb"
+    },
+    "plugins/video_filter/libvhs_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "d4501eff"
+    },
+    "plugins/video_filter/libwave_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "bc9b432b"
+    },
+    "plugins/video_output/libcaca_plugin.dll": {
+      "contrib_path_components": [
+        "caca",
+        "zlib"
+      ],
+      "debuglink_crc32": "fc2f802a"
+    },
+    "plugins/video_output/libdirect3d11_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3ff0b591"
+    },
+    "plugins/video_output/libdirect3d9_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "efb584a8"
+    },
+    "plugins/video_output/libdirectdraw_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "32ee462d"
+    },
+    "plugins/video_output/libdrawable_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "272582f6"
+    },
+    "plugins/video_output/libflaschen_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "23e5880f"
+    },
+    "plugins/video_output/libgl_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "39d7efa0"
+    },
+    "plugins/video_output/libglinterop_dxva2_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "baaabd16"
+    },
+    "plugins/video_output/libglwin32_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "7d81df65"
+    },
+    "plugins/video_output/libvdummy_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "e36469a0"
+    },
+    "plugins/video_output/libvmem_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "246d572e"
+    },
+    "plugins/video_output/libwgl_plugin.dll": {
+      "contrib_path_components": [
+        "pthreads"
+      ],
+      "debuglink_crc32": "9097313d"
+    },
+    "plugins/video_output/libwingdi_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "45014307"
+    },
+    "plugins/video_output/libwinhibit_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "f72ace48"
+    },
+    "plugins/video_output/libyuv_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3834bd10"
+    },
+    "plugins/video_splitter/libclone_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "691bd665"
+    },
+    "plugins/video_splitter/libpanoramix_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "17e6f4c7"
+    },
+    "plugins/video_splitter/libwall_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "8268e3ac"
+    },
+    "plugins/visualization/libglspectrum_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "3e6e7a1e"
+    },
+    "plugins/visualization/libgoom_plugin.dll": {
+      "contrib_path_components": [
+        "goom"
+      ],
+      "debuglink_crc32": "d2df4e60"
+    },
+    "plugins/visualization/libprojectm_plugin.dll": {
+      "contrib_path_components": [
+        "glew",
+        "projectM"
+      ],
+      "debuglink_crc32": "3f756be5"
+    },
+    "plugins/visualization/libvisual_plugin.dll": {
+      "contrib_path_components": [],
+      "debuglink_crc32": "679d9388"
+    }
+  }
+}
