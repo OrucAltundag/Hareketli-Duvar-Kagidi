@@ -28,6 +28,8 @@ Name: "turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: desktopicon; Description: "Masaüstü kısayolu oluştur"; Flags: unchecked
 
 [Files]
+Source: "..\dist\{#AppVersion}\HareketliDuvarKagidi-{#AppVersion}-sources-partial.zip"; DestDir: "{app}\sources"; Flags: ignoreversion nocompression
+Source: "..\dist\{#AppVersion}\HareketliDuvarKagidi-{#AppVersion}-sources-partial.zip.sha256"; DestDir: "{app}\sources"; Flags: ignoreversion
 Source: "..\dist\{#AppVersion}\win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]

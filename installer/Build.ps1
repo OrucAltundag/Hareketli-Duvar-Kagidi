@@ -36,6 +36,7 @@ if (-not $compilerPath) {
     }
 }
 if ($compilerPath) {
+    & (Join-Path $PSScriptRoot 'Build-SourceBundle.ps1')
     & $compilerPath (Join-Path $PSScriptRoot 'Setup.iss')
     if ($LASTEXITCODE -ne 0) { throw 'Inno Setup derlemesi başarısız.' }
 } else {

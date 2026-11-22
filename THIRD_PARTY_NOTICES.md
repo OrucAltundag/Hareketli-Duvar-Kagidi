@@ -66,6 +66,10 @@ Her iki libvlccore.dll içindeki sürüm 3.0.23-2-0-g79128878dd olarak okunmuşt
 
 ## v1.0.1 kaynak sağlama planı
 
+Kurulum dizinindeki `sources/HareketliDuvarKagidi-1.0.1-sources-partial.zip` toplanan kaynakları ve bildirimleri içerir. Aynı dizindeki `.sha256` dosyası bu ZIP'in özetidir. ZIP içindeki `SourceArchives.json` her arşivin erişim adresini ve SHA-256 değerini verir. VLC contrib tariflerinden doğrulanan arşivlerin SHA-512 değerleri de kayıtlıdır.
+
+VLC revizyonunun arşivindeki `contrib/src/<bileşen>/` dizinleri, ilgili `rules.mak` tariflerini ve yamaları içerir. Windows derleme betikleri `extras/package/win32/` altındadır. FFmpeg ve diğer bağımlılıklar için arşivleri tariflerdeki adlarla kullanın. Koşullu tariflerin hangi dallarının çalıştığı ve araç zincirinden hazır gelen kütüphaneler iki Release işinin kayıtlarıyla henüz doğrulanmamıştır. ZIP, doğrulanmış tam bir yeniden derleme veya yeniden bağlama kiti olarak sunulmamaktadır.
+
 GSM 1.0.13, OpenJPEG 2.5.0 ve LAME 3.100 kaynak arşivlerinden alınan telif ve lisans metinleri `licenses/` altındadır. `SOURCES.json` bu arşivlerin adreslerini, SHA-512 özetlerini ve metinlerin arşiv içindeki yollarını içerir.
 
 1. VideoLAN'dan [Win32 işi 2403066](https://code.videolan.org/videolan/vlc/-/jobs/2403066) ve [Win64 işi 2403067](https://code.videolan.org/videolan/vlc/-/jobs/2403067) için contrib manifestlerini, uygulanan yamaları, statik bağlama girdilerini ve BD-J derleme hedeflerini isteyin. İki mimariyi ayrı ayrı VLC-BINARY-INVENTORY.json ile eşleştirin.
