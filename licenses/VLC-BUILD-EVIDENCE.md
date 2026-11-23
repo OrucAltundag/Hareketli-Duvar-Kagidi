@@ -35,6 +35,23 @@ Yalıtılmış Windows x64 testinde yayımlanmış `HareketliDuvarKagidi.dll` do
 
 Test sürücüsü bu native dizini `Core.Initialize` ile seçti ve yayımlanmış uygulama sınıfı `WallpaperPlayback.Start` üzerinden bir MP4 oynattı. İki etiket birlikte okundu (`3.0.23 AuditRun wrapper-test`), bir video çıkışı ve 15 gösterilen kare ölçüldü. Değiştirilmiş yönetilen kütüphane kaynak ZIP'inden üretildi. Native değişiklik sürüm etiketi düzeyindedir. Test, kurulu uygulamanın tamamını veya statik FFmpeg/LAME eklentisini yeniden bağlama deneyi değildir.
 
+## Statik LAME ve FFmpeg deneyi
+
+Kaynak ZIP'ini açtıktan sonra Windows Git Bash'te GNU make ve LLVM-MinGW UCRT araçlarını PATH'e ekleyin. ZIP'in kökünde aşağıdaki komutları çalıştırın. Her çalıştırma kendi geçici dizininde kaynakları açar.
+
+```bash
+bash licenses/static-relink.sh archives x86_64
+bash licenses/static-relink.sh archives i686
+```
+
+Deneyde FFmpeg 4.4.5 yalnızca gerekli MP3 kodlayıcısıyla ve GPL seçeneğiyle derlenir. İlk bağlantıdan sonra LAME 3.100'ün `lame_encode_buffer` işlevine çağrı işareti eklenir. İkinci bağlantıda sadece statik LAME arşivi değişir. Sürücü FFmpeg üzerinden sessiz stereo PCM örneklerini kodlar, kodlayıcıyı boşaltır ve her çıkış paketinde MP3 eşzamanlama bitlerini kontrol eder. İşaretin değiştirilmiş sürümde görülmesi, kodlamanın yeni arşivdeki işlevden geçtiğini gösterir. Derleyici, sonuçlar ve SHA-256 değerleri [manifestte](VLC-SOURCE-MAP.json) kayıtlıdır.
+
+Win32 temel LAME kaynağı LLVM-MinGW ile SSE içsel işlevlerinde derlenemedi. VLC arşivindeki `contrib/src/lame/sse.patch` ilgili işlevlere hedef özniteliklerini ekledi ve aynı derleme ilerledi. Bu deney VideoLAN CI işinde hangi yamaların uygulandığını belirlemez.
+
+Dağıtılan iki VLC ağacında bulunan bağlantı kütüphaneleri `libvlc.lib` ve `libvlccore.lib`. Bunlar VLC API içe aktarma kütüphaneleridir. Kaynak ZIP'inde VLC tarifleri vardır. Dağıtılan `libavcodec_plugin.dll` için özgün araç zinciri, uygulanan yamalar ve transitif statik arşivleri kapsayan eşdeğer bir yeniden derleme henüz gösterilmedi. Bunun için mimari başına modülün link komutu, nesne/arşiv listesi ve bunları üreten yapılandırma veya karşılık gelen yeniden bağlanabilir girdiler gerekir.
+
+LAME arşivinin `libmp3lame/lame.c` başlığı sürüm 2 veya sonrasını belirtir. [Paketlenen lisansın](lame-COPYING.txt) 6(a) yolunda kullanıcıya değiştirilmiş kütüphaneyle yeniden bağlamaya yetecek nesne ve/veya kaynaklar sağlanır. [FFmpeg'in lisans açıklaması](https://ffmpeg.org/legal.html) GPL kapsamındaki parçalar etkinse FFmpeg bütününe GPL uygulandığını belirtir. Uygulama ile eklentinin birlikte dağıtım kapsamı ve seçilecek lisans yolunun yeterliliği ayrıca değerlendirilmelidir.
+
 ## Açık dağıtım kararları
 
 - Her iki mimari için fiili contrib/araç zinciri manifesti, tam statik bağlantı girdileri ve uygulanan yama listesi veya aynı girdileri gösteren yeniden üretilebilir derleme kaydı gerekir. Referans işler [2403066](https://code.videolan.org/videolan/vlc/-/jobs/2403066) ve [2403067](https://code.videolan.org/videolan/vlc/-/jobs/2403067).

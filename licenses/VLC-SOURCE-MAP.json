@@ -1,6 +1,53 @@
 {
   "vlc_revision": "79128878ddb2c280bbb6c89c76a46b31a80ade1c",
   "scope": "Her yol x86 ve x64 için geçerlidir. Listeler derleme tarifindeki doğrudan kaynak adaylarıdır. Boş liste kaynak eşleşmesinin açık olduğunu gösterir. Tüm satırlarda transitif bağımlılıklar ve ikilinin bütününün lisansı açık kalır. Kaynak başlığı alanları bulunan metni aktarır.",
+  "static_lame_relink": {
+    "scope": "Bileşen düzeyinde deney. Dağıtılan libavcodec_plugin.dll yeniden bağlanmadı.",
+    "ffmpeg": "4.4.5",
+    "lame": "3.100",
+    "toolchain": "LLVM-MinGW 20261117 UCRT, clang 23.1.6, GNU make 4.4.1",
+    "procedure": "static-relink.sh",
+    "driver": "static-relink-probe.c",
+    "results": {
+      "x64": {
+        "vlc_patches_used": [],
+        "baseline_and_relinked_output": "packets=13 bytes=5433",
+        "baseline_and_relinked_marker_calls": [
+          0,
+          14
+        ],
+        "sha256": {
+          "probe.o": "c49a11a8186a5cc437e59eb071dd2abafd3d9b2948308325441db8d172e8f760",
+          "ffmpeg-4.4.5/libavcodec/libavcodec.a": "cdea6aed1565a38d3a75fa835d2df52ea3935beb2c654d972adf4a435c3b963e",
+          "ffmpeg-4.4.5/libavutil/libavutil.a": "28e3e5d0c7ee4c06fd3c93dca653becd01aed2fd26c37bf3f5a225c07ad2982f",
+          "prefix/lib/libmp3lame.a": "a440acde2def36ef8438db728d25a55e96b43e8f7f361e760cc25fbe004c8e85",
+          "lame-3.100/libmp3lame/.libs/libmp3lame.a": "467044f98e188549d27b70bd34e15320e0c761c36a82c3bf3e73edd636c9e3d0"
+        }
+      },
+      "x86": {
+        "vlc_patches_used": [
+          "contrib/src/lame/sse.patch"
+        ],
+        "baseline_and_relinked_output": "packets=13 bytes=5433",
+        "baseline_and_relinked_marker_calls": [
+          0,
+          14
+        ],
+        "sha256": {
+          "probe.o": "43fd7ac3d8bbb5703423c43a0e0eeb5cce5d2030d02d19fb731fbda3bbbbc551",
+          "ffmpeg-4.4.5/libavcodec/libavcodec.a": "756a9f9192660f4fc13fda017cd799a4a92a3647f732b19bafe45b50f2f8191f",
+          "ffmpeg-4.4.5/libavutil/libavutil.a": "3e288250f69ca73878fbf57235bc6d031ac70448b8442003a8fc29e6635321f4",
+          "prefix/lib/libmp3lame.a": "17d7b7e383cd044b535da9d1030c0670d3115de3dcb9406abf3ab9360a96fbb2",
+          "lame-3.100/libmp3lame/.libs/libmp3lame.a": "6da4cb15998c0e20a0c7d244a38a071f0f1b506903c6d5d02dc4e34c3e961c4f"
+        }
+      }
+    },
+    "release_plugin_relink": {
+      "x86": "unverified",
+      "x64": "unverified",
+      "missing": "Mimariye özel eklenti bağlantı komutu ve tam nesne/arşiv listesi ile bunları yeniden üretecek araç zinciri, yapılandırma ve uygulanan yama kaydı veya eşdeğer girdiler."
+    }
+  },
   "paths": {
     "hrtfs/dodeca_and_7channel_3DSL_HRTF.sofa": [
       "share/hrtfs/dodeca_and_7channel_3DSL_HRTF.sofa"
