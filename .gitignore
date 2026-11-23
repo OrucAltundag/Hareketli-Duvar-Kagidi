@@ -37,9 +37,20 @@ Videos/
 *.pem
 *.key
 *.secrets.json
+secrets.json
+credentials.json
+.git-credentials
+.netrc
+_netrc
+.ssh/
+*.ppk
+*.publishsettings
+*.pubxml.user
+*.binlog
 
 # Dağıtım ve yerel ikili çıktılar
 *.exe
 *.dll
 *.pdb
 *.nupkg
+*-sources-partial.zip
